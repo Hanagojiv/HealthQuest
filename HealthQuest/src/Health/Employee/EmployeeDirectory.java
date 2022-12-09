@@ -6,10 +6,6 @@ package Health.Employee;
 
 import java.util.ArrayList;
 
-/**
- *
- * @author raunak
- */
 public class EmployeeDirectory {
     
     private ArrayList<Employee> employeeList;
