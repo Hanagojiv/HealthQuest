@@ -4,10 +4,7 @@
  */
 package Health.Employee;
 
-/**
- *
- * @author raunak
- */
+
 public class Employee {
     
     private String name;
