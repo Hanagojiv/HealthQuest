@@ -5,7 +5,7 @@
 package Health.Organization;
 
 import Health.Employee.EmployeeDirectory;
-
+import Health.Role.Role;
 import Health.UserAccount.UserAccountDirectory;
 import Health.WorkQueue.WorkQueue;
 import java.util.ArrayList;
@@ -40,7 +40,7 @@ public abstract class Organization {
         ++counter;
     }
 
-
+    public abstract ArrayList<Role> getSupportedRole();
     
     public UserAccountDirectory getUserAccountDirectory() {
         return userAccountDirectory;

@@ -5,7 +5,7 @@
 package Health.UserAccount;
 
 import Health.Employee.Employee;
-
+import Health.Role.Role;
 import java.util.ArrayList;
 
 
@@ -34,6 +34,7 @@ public class UserAccountDirectory {
         userAccount.setUsername(username);
         userAccount.setPassword(password);
         userAccount.setEmployee(employee);
+        userAccount.setRole(role);
         userAccountList.add(userAccount);
         return userAccount;
     }
