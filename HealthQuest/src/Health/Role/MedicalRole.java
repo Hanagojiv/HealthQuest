@@ -4,12 +4,12 @@
  */
 package Health.Role;
 
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.Location.Location;
-import Business.Organization.MedicamentOrganization;
-import Business.Organization.Organization;
-import Business.UserAccount.UserAccount;
+import Health.EcoSystem;
+import Health.Enterprise.Enterprise;
+import Health.Location.Location;
+import Health.Organization.MedicamentOrganization;
+import Health.Organization.Organization;
+import Health.UserAccount.UserAccount;
 import javax.swing.JPanel;
 import UI.MedicamentRole.MedicamentWorkArea;
 

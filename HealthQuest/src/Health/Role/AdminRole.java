@@ -4,18 +4,18 @@
  */
 package Health.Role;
 
-import Business.EcoSystem;
-import Business.Enterprise.Enterprise;
-import Business.Location.Location;
-import Business.Organization.Organization;
-import Business.UserAccount.UserAccount;
+import Health.EcoSystem;
+import Health.Enterprise.Enterprise;
+import Health.Location.Location;
+import Health.Organization.Organization;
+import Health.UserAccount.UserAccount;
 import javax.swing.JPanel;
 import userinterface.AdministrativeRole.AdminWorkAreaJpanel;
 
 
 /**
  *
- * @author raunak
+ * @author vivekhanagoji
  */
 public class AdminRole extends Role{
 
