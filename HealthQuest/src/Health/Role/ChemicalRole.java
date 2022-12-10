@@ -16,7 +16,7 @@ import userinterface.ChemicalRole.ChemicalWorkArea;
 
 /**
  *
- * @author vivekhanagoji
+ * @author venu0
  */
 public class ChemicalRole extends Role{
     

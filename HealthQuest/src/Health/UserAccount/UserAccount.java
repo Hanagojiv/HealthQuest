@@ -8,7 +8,10 @@ import Health.Employee.Employee;
 
 import Health.WorkQueue.WorkQueue;
 
-
+/**
+ *
+ * @author vivekhanagoji
+ */
 public class UserAccount {
     
     private String username;
