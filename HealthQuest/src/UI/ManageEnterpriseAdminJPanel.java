@@ -102,7 +102,6 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
         passwordJPasswordField = new javax.swing.JPasswordField();
         backJButton = new javax.swing.JButton();
         jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
         sendMailButton = new javax.swing.JButton();
 
         setBackground(new java.awt.Color(52, 148, 172));
@@ -217,10 +216,6 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
         jLabel6.setText("Enterprise Admin");
         add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 20, 440, 52));
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/Enterpriseadmin.jpg"))); // NOI18N
-        jLabel7.setText("jLabel7");
-        add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 0, 220, 170));
-
         sendMailButton.setText("Send Mail");
         sendMailButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -311,7 +306,6 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextField nameJTextField;
     private javax.swing.JComboBox networkJComboBox;
