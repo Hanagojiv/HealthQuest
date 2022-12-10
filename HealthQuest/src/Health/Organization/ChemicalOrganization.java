@@ -14,7 +14,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author kasai
+ * @author vivekhanagoji
  */
 public class ChemicalOrganization extends Organization{
     
