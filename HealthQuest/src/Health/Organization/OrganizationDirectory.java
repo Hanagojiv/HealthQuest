@@ -7,7 +7,10 @@ package Health.Organization;
 import Health.Organization.Organization.Type;
 import java.util.ArrayList;
 
-
+/**
+ *
+ * @author vivekhanagoji
+ */
 public class OrganizationDirectory {
     
     private ArrayList<Organization> organizationList;
@@ -22,7 +25,7 @@ public class OrganizationDirectory {
     
     public Organization createOrganization(Type type){
         Organization organization = null;
-         if (type.getValue().equals(Type.Doctor.getValue())){
+        if (type.getValue().equals(Type.Doctor.getValue())){
             organization = new DoctorOrganization();
             organizationList.add(organization);
         }
@@ -33,13 +36,13 @@ public class OrganizationDirectory {
         }
         
         
-        else if (type.getValue().equals(Type.Pharmacy.getValue())){
-            organization=new PharmacyOrganization();
+        else if (type.getValue().equals(Type.medicament.getValue())){
+            organization=new MedicamentOrganization();
             organizationList.add(organization);
         }
         
-        else if (type.getValue().equals(Type.Drug.getValue())){
-            organization=new DrugOrganization();
+        else if (type.getValue().equals(Type.BioTechnology.getValue())){
+            organization=new BioTechnologyOrganization();
             organizationList.add(organization);
         }
         
