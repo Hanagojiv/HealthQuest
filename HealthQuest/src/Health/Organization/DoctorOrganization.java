@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author raunak
+ * @author vivekhanagoji
  */
 public class DoctorOrganization extends Organization{
     private ArrayList<Prescription> prescriptionlist;
