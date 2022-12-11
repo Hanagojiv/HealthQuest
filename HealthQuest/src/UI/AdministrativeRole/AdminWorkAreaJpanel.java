@@ -52,52 +52,64 @@ public class AdminWorkAreaJpanel extends javax.swing.JPanel {
         userbtn = new javax.swing.JButton();
         manageOrganizationbtn = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(52, 148, 172));
-        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        setBackground(new java.awt.Color(255, 255, 255));
+        setLayout(null);
 
-        jLabel3.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 48)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Times New Roman", 3, 48)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(0, 0, 102));
-        jLabel3.setText("Administrative Work Area");
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 130, -1, -1));
+        jLabel3.setText("Administrative Work Place");
+        add(jLabel3);
+        jLabel3.setBounds(350, 130, 531, 56);
 
         valuelbl.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         valuelbl.setForeground(new java.awt.Color(0, 0, 102));
         valuelbl.setText("<value>");
-        add(valuelbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 210, 130, 30));
+        add(valuelbl);
+        valuelbl.setBounds(690, 210, 130, 30);
 
-        manageEmployeebtn.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
+        manageEmployeebtn.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         manageEmployeebtn.setText("Manage Employee");
         manageEmployeebtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 manageEmployeebtnActionPerformed(evt);
             }
         });
-        add(manageEmployeebtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 460, 320, 70));
+        add(manageEmployeebtn);
+        manageEmployeebtn.setBounds(510, 460, 320, 70);
 
         enterpriseLabel1.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
         enterpriseLabel1.setForeground(new java.awt.Color(0, 0, 102));
         enterpriseLabel1.setText("Enterprise :");
-        add(enterpriseLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 210, 150, 30));
+        add(enterpriseLabel1);
+        enterpriseLabel1.setBounds(470, 210, 150, 30);
 
-        userbtn.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
+        userbtn.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         userbtn.setText("Manage User");
         userbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 userbtnActionPerformed(evt);
             }
         });
-        add(userbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 610, 320, 70));
+        add(userbtn);
+        userbtn.setBounds(500, 610, 320, 70);
 
-        manageOrganizationbtn.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
+        manageOrganizationbtn.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         manageOrganizationbtn.setText("Manage Organization");
         manageOrganizationbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 manageOrganizationbtnActionPerformed(evt);
             }
         });
-        add(manageOrganizationbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 300, 320, 70));
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, -30, -1, -1));
+        add(manageOrganizationbtn);
+        manageOrganizationbtn.setBounds(500, 300, 320, 70);
+        add(jLabel1);
+        jLabel1.setBounds(130, -30, 0, 0);
+
+        jLabel2.setText("jLabel2");
+        add(jLabel2);
+        jLabel2.setBounds(0, 0, 42, 17);
     }// </editor-fold>//GEN-END:initComponents
 
     private void manageOrganizationbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_manageOrganizationbtnActionPerformed
@@ -157,6 +169,7 @@ public class AdminWorkAreaJpanel extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel enterpriseLabel1;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JButton manageEmployeebtn;
     private javax.swing.JButton manageOrganizationbtn;
