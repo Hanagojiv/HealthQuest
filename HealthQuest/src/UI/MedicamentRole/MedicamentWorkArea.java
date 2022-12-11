@@ -6,16 +6,16 @@
 package UI.MedicamentRole;
 
 
-import Business.Enterprise.Enterprise;
-import Business.MedicalInventory.MedicalInventory;
-import Business.MedicalInventory.MedicalInventoryList;
-import Business.Location.Location;
-import Business.Organization.Organization;
-import Business.Organization.MedicamentOrganization;
-import Business.UserAccount.UserAccount;
-import Business.WorkQueue.BioTechnologyWorkRequest;
-import Business.WorkQueue.MedicalWorkRequest;
-import Business.WorkQueue.WorkRequest;
+import Health.Enterprise.Enterprise;
+import Health.MedicalInventory.MedicalInventory;
+import Health.MedicalInventory.MedicalInventoryList;
+import Health.Location.Location;
+import Health.Organization.Organization;
+import Health.Organization.MedicamentOrganization;
+import Health.UserAccount.UserAccount;
+import Health.WorkQueue.BioTechnologyWorkRequest;
+import Health.WorkQueue.MedicalWorkRequest;
+import Health.WorkQueue.WorkRequest;
 import java.awt.CardLayout;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
