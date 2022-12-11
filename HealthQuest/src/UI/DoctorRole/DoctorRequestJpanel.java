@@ -375,39 +375,41 @@ public class DoctorRequestJpanel extends javax.swing.JPanel {
        
 
         LabTestWorkRequest request = (LabTestWorkRequest) doctorRequestTbl.getValueAt(selectedRow, 0);
-         if(doctorRequestTbl.getValueAt(selectedRow, 6)==null || doctorRequestTbl.getValueAt(selectedRow, 6) == "N/A(BioTechnology Exists)")
-        {
-            JOptionPane.showMessageDialog(null, "Clinical trail cannot be performed on this patient");
-            return;
-        }
         
-         
-        
-        if(doctorRequestTbl.getValueAt(selectedRow, 7)!=null)
-        {
-            JOptionPane.showMessageDialog(null, "Clinical trail was already performed on this patient");
-            return;
-        }
-        
-         int flag=0;
-         if((doctorRequestTbl.getValueAt(selectedRow, 5).toString().equalsIgnoreCase("completed"))){
-            
-            flag++;
-            
-        }
-         if((doctorRequestTbl.getValueAt(selectedRow, 5).toString().equalsIgnoreCase("ClinicalTrail"))){            
-            flag++;
-            
-        }
-         System.out.println(flag+"clinical");
-         if(flag==0)
-         {
-             JOptionPane.showMessageDialog(this, "Lab test results are yet returned");
-             return;
-             
-         }
-         
         request.setStatus("ClinicalTrail");
+//         if(doctorRequestTbl.getValueAt(selectedRow, 6)==null || doctorRequestTbl.getValueAt(selectedRow, 6) == "N/A(BioTechnology Exists)")
+//        {
+//            JOptionPane.showMessageDialog(null, "Clinical trail cannot be performed on this patient");
+//            return;
+//        }
+//        
+//         
+//        
+//        if(doctorRequestTbl.getValueAt(selectedRow, 7)!=null)
+//        {
+//            JOptionPane.showMessageDialog(null, "Clinical trail was already performed on this patient");
+//            return;
+//        }
+//        
+//         int flag=0;
+//         if((doctorRequestTbl.getValueAt(selectedRow, 5).toString().equalsIgnoreCase("completed"))){
+//            
+//            flag++;
+//            
+//        }
+//         if((doctorRequestTbl.getValueAt(selectedRow, 5).toString().equalsIgnoreCase("ClinicalTrail"))){            
+//            flag++;
+//            
+//        }
+//         System.out.println(flag+"clinical");
+//         if(flag==0)
+//         {
+//             JOptionPane.showMessageDialog(this, "Lab test results are yet returned");
+//             return;
+//             
+//         }
+//         
+//        
 
         ClincalTrailJPanel clincalTrailJPanel = new ClincalTrailJPanel(userProcessContainer, request);
         userProcessContainer.add("clincalTrailJPanel", clincalTrailJPanel);
