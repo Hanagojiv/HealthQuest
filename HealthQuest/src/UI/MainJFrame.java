@@ -66,8 +66,6 @@ public class MainJFrame extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         container = new javax.swing.JPanel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -131,19 +129,7 @@ public class MainJFrame extends javax.swing.JFrame {
         jSplitPane1.setLeftComponent(jPanel1);
 
         container.setBackground(new java.awt.Color(255, 51, 204));
-        container.setLayout(null);
-
-        jLabel3.setBackground(new java.awt.Color(166, 82, 205));
-        jLabel3.setText("jLabel3");
-        jLabel3.setPreferredSize(new java.awt.Dimension(420, 170));
-        container.add(jLabel3);
-        jLabel3.setBounds(0, 0, 1905, 2002);
-
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/HealthQuest1.gif"))); // NOI18N
-        jLabel7.setText("jLabel7");
-        container.add(jLabel7);
-        jLabel7.setBounds(2, -3, 1530, 790);
-
+        container.setLayout(new java.awt.CardLayout());
         jSplitPane1.setRightComponent(container);
 
         getContentPane().add(jSplitPane1, java.awt.BorderLayout.CENTER);
@@ -274,11 +260,9 @@ public class MainJFrame extends javax.swing.JFrame {
     private javax.swing.JPanel container;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JSplitPane jSplitPane1;
     private javax.swing.JButton loginBtn;
