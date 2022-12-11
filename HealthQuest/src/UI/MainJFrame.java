@@ -24,7 +24,7 @@ import org.apache.log4j.Logger;
 
 /**
  *
- * @author vivekhanagoji
+ * @author kasai
  */
 public class MainJFrame extends javax.swing.JFrame {
 
@@ -62,14 +62,19 @@ public class MainJFrame extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         loginJLabel = new javax.swing.JLabel();
         logoutBtn = new javax.swing.JButton();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
         container = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(52, 148, 172));
         jPanel1.setMinimumSize(new java.awt.Dimension(300, 2000));
         jPanel1.setPreferredSize(new java.awt.Dimension(300, 2000));
+        jPanel1.setLayout(null);
 
         loginBtn.setText("Login");
         loginBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -77,12 +82,26 @@ public class MainJFrame extends javax.swing.JFrame {
                 loginBtnActionPerformed(evt);
             }
         });
+        jPanel1.add(loginBtn);
+        loginBtn.setBounds(32, 497, 210, 40);
+        jPanel1.add(userNameTxt);
+        userNameTxt.setBounds(32, 348, 210, 41);
+        jPanel1.add(passwordTxt);
+        passwordTxt.setBounds(32, 436, 210, 43);
 
         jLabel1.setFont(new java.awt.Font("Microsoft JhengHei UI", 0, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("User Name");
+        jPanel1.add(jLabel1);
+        jLabel1.setBounds(32, 300, 126, 30);
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Password");
+        jPanel1.add(jLabel2);
+        jLabel2.setBounds(32, 395, 101, 29);
+        jPanel1.add(loginJLabel);
+        loginJLabel.setBounds(248, 620, 0, 0);
 
         logoutBtn.setText("Logout");
         logoutBtn.setEnabled(false);
@@ -91,53 +110,39 @@ public class MainJFrame extends javax.swing.JFrame {
                 logoutBtnActionPerformed(evt);
             }
         });
+        jPanel1.add(logoutBtn);
+        logoutBtn.setBounds(32, 569, 210, 40);
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(32, 32, 32)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(logoutBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 210, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(loginJLabel))
-                    .addComponent(jLabel1)
-                    .addComponent(jLabel2)
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addComponent(userNameTxt, javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(passwordTxt, javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(loginBtn, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 210, Short.MAX_VALUE)))
-                .addContainerGap(52, Short.MAX_VALUE))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(300, 300, 300)
-                .addComponent(jLabel1)
-                .addGap(18, 18, 18)
-                .addComponent(userNameTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel2)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(passwordTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(loginBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(32, 32, 32)
-                .addComponent(logoutBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(11, 11, 11)
-                .addComponent(loginJLabel)
-                .addContainerGap(1371, Short.MAX_VALUE))
-        );
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/Login02.jpg"))); // NOI18N
+        jLabel4.setText("jLabel4");
+        jPanel1.add(jLabel4);
+        jLabel4.setBounds(0, 0, 300, 930);
+
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/login03.gif"))); // NOI18N
+        jLabel5.setText("jLabel5");
+        jPanel1.add(jLabel5);
+        jLabel5.setBounds(-50, 0, 350, 290);
+
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/login04.gif"))); // NOI18N
+        jLabel6.setText("jLabel6");
+        jPanel1.add(jLabel6);
+        jLabel6.setBounds(-50, 640, 350, 330);
 
         jSplitPane1.setLeftComponent(jPanel1);
 
-        container.setBackground(new java.awt.Color(52, 148, 172));
-        container.setLayout(new java.awt.CardLayout());
+        container.setBackground(new java.awt.Color(255, 51, 204));
+        container.setLayout(null);
 
-        jLabel3.setBackground(new java.awt.Color(52, 148, 172));
-        container.add(jLabel3, "card2");
+        jLabel3.setBackground(new java.awt.Color(166, 82, 205));
+        jLabel3.setText("jLabel3");
+        jLabel3.setPreferredSize(new java.awt.Dimension(420, 170));
+        container.add(jLabel3);
+        jLabel3.setBounds(0, 0, 1905, 2002);
+
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/HealthQuest1.gif"))); // NOI18N
+        jLabel7.setText("jLabel7");
+        container.add(jLabel7);
+        jLabel7.setBounds(2, -3, 1530, 790);
 
         jSplitPane1.setRightComponent(container);
 
@@ -270,6 +275,10 @@ public class MainJFrame extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JSplitPane jSplitPane1;
     private javax.swing.JButton loginBtn;
