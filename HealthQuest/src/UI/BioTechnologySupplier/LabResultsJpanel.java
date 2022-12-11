@@ -27,7 +27,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;
 import org.apache.log4j.Logger;
-import userinterface.LabAssistantRole.ProcessWorkRequestJPanel;
+import UI.LabAssistantRole.ProcessWorkRequestJPanel;
 
 /**
  *

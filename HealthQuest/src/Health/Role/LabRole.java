@@ -10,7 +10,7 @@ import Health.Location.Location;
 import Health.Organization.LabOrganization;
 import Health.Organization.Organization;
 import Health.UserAccount.UserAccount;
-import userinterface.LabAssistantRole.LabAssistantWorkAreaJPanel;
+import UI.LabAssistantRole.LabAssistantWorkAreaJPanel;
 import javax.swing.JPanel;
 
 /**

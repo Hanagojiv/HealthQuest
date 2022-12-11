@@ -67,6 +67,11 @@ public class ClincalTrailJPanel extends javax.swing.JPanel {
         add(LabTestLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(221, 34, 609, 52));
 
         sexcomboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "--Please select--", "Success", "Failure" }));
+        sexcomboBox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                sexcomboBoxActionPerformed(evt);
+            }
+        });
         add(sexcomboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(536, 311, 200, -1));
 
         patientLbl1.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 1, 24)); // NOI18N
@@ -126,6 +131,10 @@ public class ClincalTrailJPanel extends javax.swing.JPanel {
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.previous(userProcessContainer);
     }//GEN-LAST:event_backBtnActionPerformed
+
+    private void sexcomboBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sexcomboBoxActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_sexcomboBoxActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
