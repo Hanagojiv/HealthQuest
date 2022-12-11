@@ -9,7 +9,7 @@ import Health.Enterprise.Enterprise;
 import Health.Location.Location;
 import Health.Organization.Organization;
 import Health.UserAccount.UserAccount;
-import userinterface.SystemAdminWorkArea.SystemAdminWorkAreaJPanel;
+import UI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel;
 import javax.swing.JPanel;
 
 /**
