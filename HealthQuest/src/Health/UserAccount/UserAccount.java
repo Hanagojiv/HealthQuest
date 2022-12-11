@@ -5,7 +5,7 @@
 package Health.UserAccount;
 
 import Health.Employee.Employee;
-
+import Health.Role.Role;
 import Health.WorkQueue.WorkQueue;
 
 /**
@@ -17,7 +17,7 @@ public class UserAccount {
     private String username;
     private String password;
     private Employee employee;
- 
+    private Role role;
     private WorkQueue workQueue;
 
     public UserAccount() {
@@ -42,12 +42,17 @@ public class UserAccount {
         this.password = password;
     }
 
-
+    public Role getRole() {
+        return role;
+    }
 
     public void setEmployee(Employee employee) {
         this.employee = employee;
     }
 
+    public void setRole(Role role) {
+        this.role = role;
+    }
 
     public Employee getEmployee() {
         return employee;

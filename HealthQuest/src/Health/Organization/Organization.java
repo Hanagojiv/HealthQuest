@@ -10,7 +10,10 @@ import Health.UserAccount.UserAccountDirectory;
 import Health.WorkQueue.WorkQueue;
 import java.util.ArrayList;
 
-
+/**
+ *
+ * @author vivekhanagoji
+ */
 public abstract class Organization {
 
     private String name;
@@ -21,7 +24,7 @@ public abstract class Organization {
     private static int counter=0;
     
     public enum Type{
-        Admin("Admin Organization"), Doctor("Doctor Organization"), Lab("Lab Organization"), Pharmacy("Pharmacy Organization"), Drug("Drug Organization"), Chemical("Chemical Organization");
+        Admin("Admin Organization"), Doctor("Doctor Organization"), Lab("Lab Organization"), medicament("Medicament Organization"), BioTechnology("BioTechnology Organization"), Chemical("Chemical Organization");
         private String value;
         private Type(String value) {
             this.value = value;
