@@ -12,7 +12,7 @@ import Health.Organization.ChemicalOrganization;
 import Health.Organization.Organization;
 import Health.UserAccount.UserAccount;
 import javax.swing.JPanel;
-import userinterface.ChemicalRole.ChemicalWorkArea;
+import UI.ChemicalRole.ChemicalWorkArea;
 
 /**
  *

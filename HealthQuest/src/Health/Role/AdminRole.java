@@ -10,7 +10,7 @@ import Health.Location.Location;
 import Health.Organization.Organization;
 import Health.UserAccount.UserAccount;
 import javax.swing.JPanel;
-import userinterface.AdministrativeRole.AdminWorkAreaJpanel;
+import UI.AdministrativeRole.AdminWorkAreaJpanel;
 
 
 /**

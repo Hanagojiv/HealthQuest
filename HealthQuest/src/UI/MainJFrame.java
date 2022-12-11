@@ -24,7 +24,7 @@ import org.apache.log4j.Logger;
 
 /**
  *
- * @author kasai
+ * @author vivekhanagoji
  */
 public class MainJFrame extends javax.swing.JFrame {
 
