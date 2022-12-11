@@ -9,7 +9,7 @@ import Health.ChemicalInventory.ChemicalCompound;
 import Health.MedicalInventory.MedicalInventory;
 import Health.Role.ChemicalRole;
 
-import Business.Role.Role;
+import Health.Role.Role;
 import java.util.ArrayList;
 
 /**

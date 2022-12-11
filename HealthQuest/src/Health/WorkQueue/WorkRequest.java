@@ -4,11 +4,13 @@
  */
 package Health.WorkQueue;
 
-
-import java.util.Date;
 import Health.UserAccount.UserAccount;
+import java.util.Date;
 
-
+/**
+ *
+ * @author vivekhanagoji
+ */
 public abstract class WorkRequest {
 
     private String message;
@@ -29,15 +31,16 @@ public abstract class WorkRequest {
     public void setMessage(String message) {
         this.message = message;
     }
-    
-      public UserAccount getSender() {
+
+    public UserAccount getSender() {
         return sender;
     }
-      
-      public void setSender(UserAccount sender) {
+
+    public void setSender(UserAccount sender) {
         this.sender = sender;
     }
-      public UserAccount getReceiver() {
+
+    public UserAccount getReceiver() {
         return receiver;
     }
 
@@ -45,7 +48,6 @@ public abstract class WorkRequest {
         this.receiver = receiver;
     }
 
- 
     public String getStatus() {
         return status;
     }
