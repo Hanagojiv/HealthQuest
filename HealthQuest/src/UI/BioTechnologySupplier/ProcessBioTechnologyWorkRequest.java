@@ -50,8 +50,8 @@ public class ProcessBioTechnologyWorkRequest extends javax.swing.JPanel {
         updateBtn = new javax.swing.JButton();
         backBtn = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
-        dateFld = new com.toedter.calendar.JDateChooser();
         dateTxt = new javax.swing.JTextField();
+        dateFld = new com.toedter.calendar.JDateChooser();
 
         setBackground(new java.awt.Color(204, 204, 255));
         setPreferredSize(new java.awt.Dimension(2000, 1200));
@@ -89,11 +89,11 @@ public class ProcessBioTechnologyWorkRequest extends javax.swing.JPanel {
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/progress.jpg"))); // NOI18N
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(1000, 40, 120, -1));
-        add(dateFld, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 220, 210, 30));
 
         dateTxt.setEditable(false);
         dateTxt.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 0, 20)); // NOI18N
-        add(dateTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 210, 261, 41));
+        add(dateTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 210, 261, 41));
+        add(dateFld, new org.netbeans.lib.awtextra.AbsoluteConstraints(875, 212, 156, 41));
     }// </editor-fold>//GEN-END:initComponents
 
     private void updateBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_updateBtnActionPerformed
