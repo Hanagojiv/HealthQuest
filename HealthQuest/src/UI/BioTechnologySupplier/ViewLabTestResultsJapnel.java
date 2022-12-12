@@ -36,12 +36,13 @@ public class ViewLabTestResultsJapnel extends javax.swing.JPanel {
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 204, 255));
-        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        setBackground(new java.awt.Color(0, 204, 255));
+        setLayout(null);
 
         patientTextField.setFont(new java.awt.Font("Microsoft JhengHei UI", 0, 22)); // NOI18N
         patientTextField.setEnabled(false);
-        add(patientTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 240, 180, -1));
+        add(patientTextField);
+        patientTextField.setBounds(560, 240, 180, 33);
 
         geneTbl.setFont(new java.awt.Font("Microsoft JhengHei UI", 0, 20)); // NOI18N
         geneTbl.setModel(new javax.swing.table.DefaultTableModel(
@@ -71,20 +72,25 @@ public class ViewLabTestResultsJapnel extends javax.swing.JPanel {
         geneTbl.getTableHeader().setReorderingAllowed(false);
         jScrollPane1.setViewportView(geneTbl);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(312, 317, -1, 200));
+        add(jScrollPane1);
+        jScrollPane1.setBounds(312, 317, 452, 200);
 
-        jLabel1.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 48)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 3, 48)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText(" LAB TEST RESULTS");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 80, 480, 52));
+        add(jLabel1);
+        jLabel1.setBounds(250, 80, 480, 52);
 
-        jLabel2.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 1, 24)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel2.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Patient Name :");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 240, 200, 30));
+        add(jLabel2);
+        jLabel2.setBounds(330, 240, 200, 30);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/DrugLabResults.jpg"))); // NOI18N
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 50, -1, -1));
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/BioTechnologySupplier/labtest.jpg"))); // NOI18N
+        jLabel3.setText("jLabel3");
+        add(jLabel3);
+        jLabel3.setBounds(90, 40, 910, 660);
     }// </editor-fold>//GEN-END:initComponents
 
 

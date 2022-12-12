@@ -51,17 +51,16 @@ public class NonExistingGeneJpanel extends javax.swing.JPanel {
 
         jLabel1 = new javax.swing.JLabel();
         backBtn = new javax.swing.JButton();
-        jLabel2 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(255, 0, 51));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Microsoft JhengHei UI", 1, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 3, 48)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 0, 102));
-        jLabel1.setText("New Genes has been Identified ");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(201, 130, 423, 132));
+        jLabel1.setText("New Genes Identified ");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(201, 130, 470, 132));
 
-        backBtn.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
+        backBtn.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         backBtn.setForeground(new java.awt.Color(0, 0, 102));
         backBtn.setText("BACK");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -69,10 +68,7 @@ public class NonExistingGeneJpanel extends javax.swing.JPanel {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(142, 363, -1, 33));
-
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/NewGene.jpg"))); // NOI18N
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(631, 130, 120, 132));
+        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 300, -1, 33));
     }// </editor-fold>//GEN-END:initComponents
 
     private void backBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backBtnActionPerformed
@@ -91,6 +87,5 @@ public class NonExistingGeneJpanel extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton backBtn;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
     // End of variables declaration//GEN-END:variables
 }

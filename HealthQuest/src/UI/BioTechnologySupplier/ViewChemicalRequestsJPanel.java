@@ -94,9 +94,10 @@ public class ViewChemicalRequestsJPanel extends javax.swing.JPanel {
         backBtn = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 204, 255));
-        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        setBackground(new java.awt.Color(255, 255, 255));
+        setLayout(null);
 
         reorderTable.setBorder(new javax.swing.border.MatteBorder(null));
         reorderTable.setFont(new java.awt.Font("Microsoft JhengHei UI", 0, 20)); // NOI18N
@@ -126,9 +127,10 @@ public class ViewChemicalRequestsJPanel extends javax.swing.JPanel {
         reorderTable.setRowHeight(30);
         jScrollPane1.setViewportView(reorderTable);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 149, 950, 238));
+        add(jScrollPane1);
+        jScrollPane1.setBounds(50, 149, 950, 238);
 
-        addMedicineButton.setFont(new java.awt.Font("Microsoft YaHei Light", 1, 24)); // NOI18N
+        addMedicineButton.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         addMedicineButton.setForeground(new java.awt.Color(0, 0, 102));
         addMedicineButton.setText("ADD CHEMICAL");
         addMedicineButton.addActionListener(new java.awt.event.ActionListener() {
@@ -136,63 +138,74 @@ public class ViewChemicalRequestsJPanel extends javax.swing.JPanel {
                 addMedicineButtonActionPerformed(evt);
             }
         });
-        add(addMedicineButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(394, 616, 251, -1));
+        add(addMedicineButton);
+        addMedicineButton.setBounds(394, 616, 251, 35);
 
-        viewRequestsButton.setFont(new java.awt.Font("Microsoft YaHei Light", 1, 18)); // NOI18N
+        viewRequestsButton.setFont(new java.awt.Font("Times New Roman", 3, 18)); // NOI18N
         viewRequestsButton.setText("VIEW REQUESTS");
         viewRequestsButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 viewRequestsButtonActionPerformed(evt);
             }
         });
-        add(viewRequestsButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(1110, 400, 251, -1));
+        add(viewRequestsButton);
+        viewRequestsButton.setBounds(820, 410, 180, 27);
 
-        viewDetailsButton1.setFont(new java.awt.Font("Microsoft YaHei Light", 1, 18)); // NOI18N
+        viewDetailsButton1.setFont(new java.awt.Font("Times New Roman", 3, 18)); // NOI18N
         viewDetailsButton1.setText("VIEW DETAILS");
         viewDetailsButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 viewDetailsButton1ActionPerformed(evt);
             }
         });
-        add(viewDetailsButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1110, 440, 251, -1));
+        add(viewDetailsButton1);
+        viewDetailsButton1.setBounds(820, 450, 180, 27);
 
-        statusCheckButton.setFont(new java.awt.Font("Microsoft YaHei Light", 1, 18)); // NOI18N
-        statusCheckButton.setText("INVENTORY STATUS CHECK");
+        statusCheckButton.setFont(new java.awt.Font("Times New Roman", 3, 18)); // NOI18N
+        statusCheckButton.setText("Order");
         statusCheckButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 statusCheckButtonActionPerformed(evt);
             }
         });
-        add(statusCheckButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(1040, 200, 321, -1));
+        add(statusCheckButton);
+        statusCheckButton.setBounds(810, 490, 190, 27);
 
-        serialNumLabel.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 1, 24)); // NOI18N
-        serialNumLabel.setForeground(new java.awt.Color(0, 0, 102));
+        serialNumLabel.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
+        serialNumLabel.setForeground(new java.awt.Color(255, 255, 255));
         serialNumLabel.setText("SERIAL NUMBER: ");
-        add(serialNumLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 409, -1, 20));
+        add(serialNumLabel);
+        serialNumLabel.setBounds(220, 409, 208, 20);
 
         serialNumberTextField.setFont(new java.awt.Font("Microsoft JhengHei UI", 0, 20)); // NOI18N
-        add(serialNumberTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 399, 270, -1));
+        add(serialNumberTextField);
+        serialNumberTextField.setBounds(520, 399, 270, 31);
 
-        medicineNameLabel.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
-        medicineNameLabel.setForeground(new java.awt.Color(0, 0, 102));
+        medicineNameLabel.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
+        medicineNameLabel.setForeground(new java.awt.Color(255, 255, 255));
         medicineNameLabel.setText("CHEMICAL NAME: ");
-        add(medicineNameLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(204, 447, -1, -1));
+        add(medicineNameLabel);
+        medicineNameLabel.setBounds(204, 447, 218, 29);
 
         chemicalNameTextField.setFont(new java.awt.Font("Microsoft JhengHei UI", 0, 20)); // NOI18N
-        add(chemicalNameTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 445, 270, -1));
+        add(chemicalNameTextField);
+        chemicalNameTextField.setBounds(520, 445, 270, 31);
 
-        availQuantityLabel.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
-        availQuantityLabel.setForeground(new java.awt.Color(0, 0, 102));
+        availQuantityLabel.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
+        availQuantityLabel.setForeground(new java.awt.Color(255, 255, 255));
         availQuantityLabel.setText("AVAILABLE QUANTITY:");
-        add(availQuantityLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(145, 492, 282, 20));
+        add(availQuantityLabel);
+        availQuantityLabel.setBounds(145, 492, 282, 20);
 
         availQuantityTextField.setFont(new java.awt.Font("Microsoft JhengHei UI", 0, 20)); // NOI18N
-        add(availQuantityTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 492, 270, -1));
+        add(availQuantityTextField);
+        availQuantityTextField.setBounds(520, 492, 270, 31);
 
-        reqQuantityLabel.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
-        reqQuantityLabel.setForeground(new java.awt.Color(0, 0, 102));
+        reqQuantityLabel.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
+        reqQuantityLabel.setForeground(new java.awt.Color(255, 255, 255));
         reqQuantityLabel.setText("REQUIRED QUANTITY:");
-        add(reqQuantityLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(157, 544, 280, 20));
+        add(reqQuantityLabel);
+        reqQuantityLabel.setBounds(157, 544, 280, 20);
 
         reqQuantityTextField.setFont(new java.awt.Font("Microsoft JhengHei UI", 0, 20)); // NOI18N
         reqQuantityTextField.addActionListener(new java.awt.event.ActionListener() {
@@ -200,9 +213,10 @@ public class ViewChemicalRequestsJPanel extends javax.swing.JPanel {
                 reqQuantityTextFieldActionPerformed(evt);
             }
         });
-        add(reqQuantityTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 539, 270, -1));
+        add(reqQuantityTextField);
+        reqQuantityTextField.setBounds(520, 539, 270, 31);
 
-        backBtn.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
+        backBtn.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         backBtn.setForeground(new java.awt.Color(0, 0, 102));
         backBtn.setText("BACK");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -210,15 +224,24 @@ public class ViewChemicalRequestsJPanel extends javax.swing.JPanel {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 692, -1, -1));
+        add(backBtn);
+        backBtn.setBounds(100, 620, 94, 35);
 
-        jLabel1.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 48)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 102));
-        jLabel1.setText("Chemical Requests");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 20, -1, 53));
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 3, 48)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setText("Chemical Request");
+        add(jLabel1);
+        jLabel1.setBounds(270, 20, 357, 53);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/Request.jpg"))); // NOI18N
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(787, 13, -1, -1));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/BioTechnologySupplier/chemical.gif"))); // NOI18N
+        jLabel2.setText("jLabel2");
+        add(jLabel2);
+        jLabel2.setBounds(730, 440, 260, 350);
+
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/BioTechnologySupplier/chemical101.jpg"))); // NOI18N
+        jLabel3.setText("jLabel3");
+        add(jLabel3);
+        jLabel3.setBounds(-130, -20, 1370, 820);
     }// </editor-fold>//GEN-END:initComponents
 
     private void addMedicineButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addMedicineButtonActionPerformed
@@ -393,6 +416,7 @@ public class ViewChemicalRequestsJPanel extends javax.swing.JPanel {
     private javax.swing.JTextField chemicalNameTextField;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel medicineNameLabel;
     private javax.swing.JTable reorderTable;

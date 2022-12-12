@@ -92,13 +92,14 @@ public class BioTechnologySupplierWorkArea extends javax.swing.JPanel {
         refreshBtn = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 204, 255));
-        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        setBackground(new java.awt.Color(0, 204, 255));
+        setLayout(null);
 
-        jLabel1.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 48)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 3, 48)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 0, 102));
         jLabel1.setText("BioTechnology SUPPLIER WORK AREA ");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 70, -1, 53));
+        add(jLabel1);
+        jLabel1.setBounds(150, 70, 850, 53);
 
         workRequestJTable.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 0, 20)); // NOI18N
         workRequestJTable.setModel(new javax.swing.table.DefaultTableModel(
@@ -127,9 +128,10 @@ public class BioTechnologySupplierWorkArea extends javax.swing.JPanel {
         workRequestJTable.setRowHeight(30);
         jScrollPane2.setViewportView(workRequestJTable);
 
-        add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 166, 1240, 290));
+        add(jScrollPane2);
+        jScrollPane2.setBounds(36, 166, 1240, 290);
 
-        assignBtn.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
+        assignBtn.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         assignBtn.setForeground(new java.awt.Color(0, 0, 102));
         assignBtn.setText("Assign to me");
         assignBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -137,9 +139,10 @@ public class BioTechnologySupplierWorkArea extends javax.swing.JPanel {
                 assignBtnActionPerformed(evt);
             }
         });
-        add(assignBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 530, 220, -1));
+        add(assignBtn);
+        assignBtn.setBounds(160, 530, 220, 35);
 
-        reqChemButton.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 1, 24)); // NOI18N
+        reqChemButton.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         reqChemButton.setForeground(new java.awt.Color(0, 0, 102));
         reqChemButton.setText("request chemical");
         reqChemButton.addActionListener(new java.awt.event.ActionListener() {
@@ -147,9 +150,10 @@ public class BioTechnologySupplierWorkArea extends javax.swing.JPanel {
                 reqChemButtonActionPerformed(evt);
             }
         });
-        add(reqChemButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(148, 626, -1, 62));
+        add(reqChemButton);
+        reqChemButton.setBounds(148, 626, 199, 62);
 
-        processBtn.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
+        processBtn.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         processBtn.setForeground(new java.awt.Color(0, 0, 102));
         processBtn.setText("Process");
         processBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -157,9 +161,10 @@ public class BioTechnologySupplierWorkArea extends javax.swing.JPanel {
                 processBtnActionPerformed(evt);
             }
         });
-        add(processBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 530, 230, -1));
+        add(processBtn);
+        processBtn.setBounds(540, 530, 230, 35);
 
-        labRequestButton.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 1, 24)); // NOI18N
+        labRequestButton.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         labRequestButton.setForeground(new java.awt.Color(0, 0, 102));
         labRequestButton.setText("View Lab Requests");
         labRequestButton.addActionListener(new java.awt.event.ActionListener() {
@@ -167,9 +172,10 @@ public class BioTechnologySupplierWorkArea extends javax.swing.JPanel {
                 labRequestButtonActionPerformed(evt);
             }
         });
-        add(labRequestButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(518, 636, 260, 50));
+        add(labRequestButton);
+        labRequestButton.setBounds(518, 636, 260, 50);
 
-        addBioTechnologyButton.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 1, 24)); // NOI18N
+        addBioTechnologyButton.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         addBioTechnologyButton.setForeground(new java.awt.Color(0, 0, 102));
         addBioTechnologyButton.setText("ADD DRUG");
         addBioTechnologyButton.addActionListener(new java.awt.event.ActionListener() {
@@ -177,9 +183,10 @@ public class BioTechnologySupplierWorkArea extends javax.swing.JPanel {
                 addBioTechnologyButtonActionPerformed(evt);
             }
         });
-        add(addBioTechnologyButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(928, 636, 190, 50));
+        add(addBioTechnologyButton);
+        addBioTechnologyButton.setBounds(928, 636, 190, 50);
 
-        refreshBtn.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
+        refreshBtn.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         refreshBtn.setForeground(new java.awt.Color(0, 0, 102));
         refreshBtn.setText("Refresh");
         refreshBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -187,10 +194,13 @@ public class BioTechnologySupplierWorkArea extends javax.swing.JPanel {
                 refreshBtnActionPerformed(evt);
             }
         });
-        add(refreshBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 530, 169, -1));
+        add(refreshBtn);
+        refreshBtn.setBounds(930, 530, 169, 35);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/DrugSupplierWork.jpg"))); // NOI18N
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 30, 110, -1));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/BioTechnologySupplier/bio.jpg"))); // NOI18N
+        jLabel2.setText("jLabel2");
+        add(jLabel2);
+        jLabel2.setBounds(2, -3, 1320, 780);
     }// </editor-fold>//GEN-END:initComponents
 
     private void assignBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_assignBtnActionPerformed

@@ -171,29 +171,12 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         add(jSplitPane, java.awt.BorderLayout.CENTER);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnManageNetworkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnManageNetworkActionPerformed
-        ManageNetworkJPanel manageNetworkJPanel=new ManageNetworkJPanel(userProcessContainer, ecosystem);
-        log.debug("user creating network" +CLASS_NAME);
-        userProcessContainer.add("manageNetworkJPanel",manageNetworkJPanel);
-        CardLayout layout=(CardLayout)userProcessContainer.getLayout();
+    private void viewReportsBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_viewReportsBtnActionPerformed
+        UI.SystemAdminWorkArea.ViewReportsJPanel ViewReports = new UI.SystemAdminWorkArea.ViewReportsJPanel(userProcessContainer, ecosystem);
+        userProcessContainer.add("ViewReports",ViewReports);
+        CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.next(userProcessContainer);
-    }//GEN-LAST:event_btnManageNetworkActionPerformed
-
-    private void btnManageEnterpriseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnManageEnterpriseActionPerformed
-      if(ecosystem.getNetworkList().size()<=0)
-      {
-          JOptionPane.showMessageDialog(null,"No network available to create a enterprise");
-          return;
-                  }
-      else
-      {
-        ManageEnterpriseJPanel manageEnterpriseJPanel=new ManageEnterpriseJPanel(userProcessContainer, ecosystem);
-        log.debug("user creating enterpirse" +CLASS_NAME);
-        userProcessContainer.add("manageEnterpriseJPanel",manageEnterpriseJPanel);
-        CardLayout layout=(CardLayout)userProcessContainer.getLayout();
-        layout.next(userProcessContainer);
-      }
-    }//GEN-LAST:event_btnManageEnterpriseActionPerformed
+    }//GEN-LAST:event_viewReportsBtnActionPerformed
 
     private void btnManageAdminActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnManageAdminActionPerformed
         int i =0;
@@ -202,7 +185,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
             for(Enterprise e :n.getEnterpriseDirectory().getEnterpriseList())
             {
                 i++;
-                
+
             }
         }
         if(i<=0)
@@ -217,13 +200,29 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         layout.next(userProcessContainer);
     }//GEN-LAST:event_btnManageAdminActionPerformed
 
-    private void viewReportsBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_viewReportsBtnActionPerformed
-        UI.SystemAdminWorkArea.ViewReportsJPanel ViewReports = new UI.SystemAdminWorkArea.ViewReportsJPanel(userProcessContainer, ecosystem);
-        userProcessContainer.add("ViewReports",ViewReports);
-        CardLayout layout = (CardLayout) userProcessContainer.getLayout();
+    private void btnManageEnterpriseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnManageEnterpriseActionPerformed
+        if(ecosystem.getNetworkList().size()<=0)
+        {
+            JOptionPane.showMessageDialog(null,"No network available to create a enterprise");
+            return;
+        }
+        else
+        {
+            ManageEnterpriseJPanel manageEnterpriseJPanel=new ManageEnterpriseJPanel(userProcessContainer, ecosystem);
+            log.debug("user creating enterpirse" +CLASS_NAME);
+            userProcessContainer.add("manageEnterpriseJPanel",manageEnterpriseJPanel);
+            CardLayout layout=(CardLayout)userProcessContainer.getLayout();
+            layout.next(userProcessContainer);
+        }
+    }//GEN-LAST:event_btnManageEnterpriseActionPerformed
+
+    private void btnManageNetworkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnManageNetworkActionPerformed
+        ManageNetworkJPanel manageNetworkJPanel=new ManageNetworkJPanel(userProcessContainer, ecosystem);
+        log.debug("user creating network" +CLASS_NAME);
+        userProcessContainer.add("manageNetworkJPanel",manageNetworkJPanel);
+        CardLayout layout=(CardLayout)userProcessContainer.getLayout();
         layout.next(userProcessContainer);
-        
-    }//GEN-LAST:event_viewReportsBtnActionPerformed
+    }//GEN-LAST:event_btnManageNetworkActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
