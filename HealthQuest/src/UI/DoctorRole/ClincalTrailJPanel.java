@@ -48,23 +48,26 @@ public class ClincalTrailJPanel extends javax.swing.JPanel {
         patientLbl1 = new javax.swing.JLabel();
         statusUpdate = new javax.swing.JButton();
         backBtn = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(153, 153, 255));
-        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        setBackground(new java.awt.Color(255, 255, 255));
+        setLayout(null);
 
-        patientLbl.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 1, 24)); // NOI18N
+        patientLbl.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         patientLbl.setForeground(new java.awt.Color(0, 0, 102));
         patientLbl.setText("Patient Name :");
-        add(patientLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(326, 226, 180, 30));
+        add(patientLbl);
+        patientLbl.setBounds(326, 226, 180, 30);
 
         patientTxtField.setEditable(false);
-        add(patientTxtField, new org.netbeans.lib.awtextra.AbsoluteConstraints(536, 226, 200, 30));
+        add(patientTxtField);
+        patientTxtField.setBounds(536, 226, 200, 30);
 
-        LabTestLbl.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 48)); // NOI18N
+        LabTestLbl.setFont(new java.awt.Font("Times New Roman", 3, 48)); // NOI18N
         LabTestLbl.setForeground(new java.awt.Color(0, 0, 102));
         LabTestLbl.setText(" CLINICAL TRAIL STATUS");
-        add(LabTestLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(221, 34, 609, 52));
+        add(LabTestLbl);
+        LabTestLbl.setBounds(221, 34, 650, 52);
 
         sexcomboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "--Please select--", "Success", "Failure" }));
         sexcomboBox.addActionListener(new java.awt.event.ActionListener() {
@@ -72,13 +75,16 @@ public class ClincalTrailJPanel extends javax.swing.JPanel {
                 sexcomboBoxActionPerformed(evt);
             }
         });
-        add(sexcomboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(536, 311, 200, -1));
+        add(sexcomboBox);
+        sexcomboBox.setBounds(536, 311, 200, 23);
 
-        patientLbl1.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 1, 24)); // NOI18N
+        patientLbl1.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         patientLbl1.setForeground(new java.awt.Color(0, 0, 102));
         patientLbl1.setText("Status");
-        add(patientLbl1, new org.netbeans.lib.awtextra.AbsoluteConstraints(326, 303, 180, 30));
+        add(patientLbl1);
+        patientLbl1.setBounds(326, 303, 180, 30);
 
+        statusUpdate.setFont(new java.awt.Font("Times New Roman", 3, 13)); // NOI18N
         statusUpdate.setForeground(new java.awt.Color(0, 0, 102));
         statusUpdate.setText("SUBMIT");
         statusUpdate.addActionListener(new java.awt.event.ActionListener() {
@@ -86,7 +92,8 @@ public class ClincalTrailJPanel extends javax.swing.JPanel {
                 statusUpdateActionPerformed(evt);
             }
         });
-        add(statusUpdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(601, 405, 135, 41));
+        add(statusUpdate);
+        statusUpdate.setBounds(601, 405, 135, 41);
 
         backBtn.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 0, 24)); // NOI18N
         backBtn.setForeground(new java.awt.Color(0, 0, 102));
@@ -96,10 +103,13 @@ public class ClincalTrailJPanel extends javax.swing.JPanel {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(221, 401, 170, -1));
+        add(backBtn);
+        backBtn.setBounds(221, 401, 170, 36);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/clinical.jpg"))); // NOI18N
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(848, 34, -1, -1));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/doc14.jpg"))); // NOI18N
+        jLabel2.setText("jLabel2");
+        add(jLabel2);
+        jLabel2.setBounds(0, 0, 1200, 770);
     }// </editor-fold>//GEN-END:initComponents
 
     private void statusUpdateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_statusUpdateActionPerformed
@@ -140,7 +150,7 @@ public class ClincalTrailJPanel extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel LabTestLbl;
     private javax.swing.JButton backBtn;
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel patientLbl;
     private javax.swing.JLabel patientLbl1;
     private javax.swing.JTextField patientTxtField;

@@ -80,10 +80,10 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
         genetxtField = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(103, 118, 148));
-        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        setBackground(new java.awt.Color(255, 255, 255));
+        setLayout(null);
 
-        submitBtn.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 0, 24)); // NOI18N
+        submitBtn.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         submitBtn.setForeground(new java.awt.Color(0, 0, 102));
         submitBtn.setText("Submit Result");
         submitBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -91,17 +91,20 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
                 submitBtnActionPerformed(evt);
             }
         });
-        add(submitBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 620, -1, -1));
+        add(submitBtn);
+        submitBtn.setBounds(650, 570, 170, 35);
 
-        resultLbl.setFont(new java.awt.Font("Microsoft JhengHei UI", 1, 48)); // NOI18N
+        resultLbl.setFont(new java.awt.Font("Times New Roman", 3, 48)); // NOI18N
         resultLbl.setForeground(new java.awt.Color(51, 51, 51));
-        resultLbl.setText("Result");
-        add(resultLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 10, -1, -1));
+        resultLbl.setText("Results");
+        add(resultLbl);
+        resultLbl.setBounds(670, 30, 144, 56);
 
         patientTxtField.setEditable(false);
-        add(patientTxtField, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 100, 150, 30));
+        add(patientTxtField);
+        patientTxtField.setBounds(650, 100, 150, 30);
 
-        backBtn.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 0, 24)); // NOI18N
+        backBtn.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         backBtn.setForeground(new java.awt.Color(0, 0, 102));
         backBtn.setText("Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -109,7 +112,8 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 570, 140, -1));
+        add(backBtn);
+        backBtn.setBounds(240, 610, 140, 35);
 
         geneTbl.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 0, 20)); // NOI18N
         geneTbl.setModel(new javax.swing.table.DefaultTableModel(
@@ -141,13 +145,15 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
             geneTbl.getColumnModel().getColumn(1).setResizable(false);
         }
 
-        add(jScrollPane, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 190, 560, 210));
+        add(jScrollPane);
+        jScrollPane.setBounds(450, 190, 560, 210);
 
-        patientNameLbl.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 1, 24)); // NOI18N
+        patientNameLbl.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         patientNameLbl.setText("Patient Name :");
-        add(patientNameLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 100, 180, 30));
+        add(patientNameLbl);
+        patientNameLbl.setBounds(480, 100, 180, 30);
 
-        addGeneBtn.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 0, 24)); // NOI18N
+        addGeneBtn.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         addGeneBtn.setForeground(new java.awt.Color(0, 0, 102));
         addGeneBtn.setText("ADD Gene");
         addGeneBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -155,22 +161,29 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
                 addGeneBtnActionPerformed(evt);
             }
         });
-        add(addGeneBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 490, 160, -1));
+        add(addGeneBtn);
+        addGeneBtn.setBounds(880, 490, 160, 35);
 
-        geneLbl.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 1, 24)); // NOI18N
+        geneLbl.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
+        geneLbl.setForeground(new java.awt.Color(0, 0, 102));
         geneLbl.setText("Gene");
-        add(geneLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 490, 80, 40));
+        add(geneLbl);
+        geneLbl.setBounds(510, 490, 80, 40);
 
+        genetxtField.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
+        genetxtField.setForeground(new java.awt.Color(0, 0, 102));
         genetxtField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 genetxtFieldActionPerformed(evt);
             }
         });
-        add(genetxtField, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 490, 180, 40));
+        add(genetxtField);
+        genetxtField.setBounds(650, 490, 180, 40);
 
-        jLabel1.setBackground(new java.awt.Color(153, 204, 255));
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/LabResults.jpg"))); // NOI18N
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 160, 1000, 290));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/doc19.jpg"))); // NOI18N
+        jLabel1.setText("jLabel1");
+        add(jLabel1);
+        jLabel1.setBounds(0, 0, 1300, 760);
     }// </editor-fold>//GEN-END:initComponents
 
     public void populateTable() {

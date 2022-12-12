@@ -1,1 +1,14 @@
 Boston,Pnemonia,Aspirin
+Boston,TaySachs,Galafold
+Boston,Achondroplasia,Onpattro
+Boston,Marfansyndrome,Onpattro
+Boston,Cysticfibrosis,Onpattro
+Boston,Haemophilia,Onpattro
+Boston,Marfansyndrome,Brineura
+Mumbai,TaySachs,Onpattro
+Mumbai,TaySachs,Revcovi
+Boston,Achondroplasia,Haegarda
+Boston,Downsyndrome,Haegarda
+Boston,Achondroplasia,Tegsedi
+Boston,TaySachs,Brineura
+Boston,Marfansyndrome,Galafold

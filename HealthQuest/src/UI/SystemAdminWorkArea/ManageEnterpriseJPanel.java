@@ -17,7 +17,7 @@ import org.apache.log4j.Logger;
 
 /**
  *
- * @author kasai
+ * @author vivekhanagoji
  */
 public class ManageEnterpriseJPanel extends javax.swing.JPanel {
 
@@ -180,7 +180,7 @@ public class ManageEnterpriseJPanel extends javax.swing.JPanel {
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/ChemicalRole/983117.jpg"))); // NOI18N
         jLabel4.setText("jLabel4");
         add(jLabel4);
-        jLabel4.setBounds(-620, -10, 1690, 590);
+        jLabel4.setBounds(-710, 0, 1730, 610);
     }// </editor-fold>//GEN-END:initComponents
 
     private void submitJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_submitJButtonActionPerformed

@@ -16,7 +16,7 @@ import org.apache.log4j.Logger;
 
 /**
  *
- * @author kasai
+ * @author vivekhanagoji
  */
 public class ManageNetworkJPanel extends javax.swing.JPanel {
 

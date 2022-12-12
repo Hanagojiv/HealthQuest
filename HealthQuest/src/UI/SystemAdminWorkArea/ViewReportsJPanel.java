@@ -27,7 +27,7 @@ import org.jfree.chart.plot.PiePlot3D;
 
 /**
  *
- * @author venu0
+ * @author vivekhanagoji
  */
 public class ViewReportsJPanel extends javax.swing.JPanel {
 
@@ -109,13 +109,12 @@ public class ViewReportsJPanel extends javax.swing.JPanel {
 
         report1Btn = new javax.swing.JButton();
         report2Btn = new javax.swing.JButton();
-        report3Btn = new javax.swing.JButton();
         backBtn = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(52, 148, 172));
+        setBackground(new java.awt.Color(153, 153, 255));
         setPreferredSize(new java.awt.Dimension(2000, 1200));
 
-        report1Btn.setBackground(new java.awt.Color(204, 255, 204));
+        report1Btn.setBackground(new java.awt.Color(102, 51, 255));
         report1Btn.setFont(new java.awt.Font("Microsoft JhengHei UI", 1, 18)); // NOI18N
         report1Btn.setText("TOP MEDICINE SALES ACROSS NETWORKS");
         report1Btn.addActionListener(new java.awt.event.ActionListener() {
@@ -124,7 +123,7 @@ public class ViewReportsJPanel extends javax.swing.JPanel {
             }
         });
 
-        report2Btn.setBackground(new java.awt.Color(204, 255, 204));
+        report2Btn.setBackground(new java.awt.Color(102, 51, 255));
         report2Btn.setFont(new java.awt.Font("Microsoft JhengHei UI", 1, 18)); // NOI18N
         report2Btn.setText("MOST COMMON DISEASES ACROSS NETWORKS");
         report2Btn.addActionListener(new java.awt.event.ActionListener() {
@@ -133,16 +132,7 @@ public class ViewReportsJPanel extends javax.swing.JPanel {
             }
         });
 
-        report3Btn.setBackground(new java.awt.Color(204, 255, 204));
-        report3Btn.setFont(new java.awt.Font("Microsoft JhengHei UI", 1, 18)); // NOI18N
-        report3Btn.setText("MOST AFFECTED GENES");
-        report3Btn.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                report3BtnActionPerformed(evt);
-            }
-        });
-
-        backBtn.setBackground(new java.awt.Color(204, 255, 204));
+        backBtn.setBackground(new java.awt.Color(102, 0, 255));
         backBtn.setFont(new java.awt.Font("Microsoft JhengHei UI", 1, 18)); // NOI18N
         backBtn.setText("Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -156,13 +146,12 @@ public class ViewReportsJPanel extends javax.swing.JPanel {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap(224, Short.MAX_VALUE)
+                .addContainerGap(550, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(report3Btn, javax.swing.GroupLayout.DEFAULT_SIZE, 480, Short.MAX_VALUE)
                     .addComponent(report2Btn, javax.swing.GroupLayout.DEFAULT_SIZE, 480, Short.MAX_VALUE)
                     .addComponent(report1Btn, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(backBtn, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(644, Short.MAX_VALUE))
+                .addContainerGap(970, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -171,11 +160,9 @@ public class ViewReportsJPanel extends javax.swing.JPanel {
                 .addComponent(report1Btn, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(87, 87, 87)
                 .addComponent(report2Btn, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(77, 77, 77)
-                .addComponent(report3Btn, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(86, 86, 86)
+                .addGap(83, 83, 83)
                 .addComponent(backBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(103, Short.MAX_VALUE))
+                .addContainerGap(665, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -471,63 +458,6 @@ public class ViewReportsJPanel extends javax.swing.JPanel {
         plot2.setRangeGridlinePaint(Color.BLACK);
     }//GEN-LAST:event_report2BtnActionPerformed
 
-    private void report3BtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_report3BtnActionPerformed
-        
-         DefaultPieDataset dcd = new DefaultPieDataset();
-        int A2M=0,BAX=0,CAT=0,DLL3=0,EGF=0,FOS=0,GH1=0,HSF1=0,IGF1=0,LEP=0;
-        for(int i=0;i<geneList.size();i++){
-           String gene = geneList.get(i);
-           
-           if(gene.equalsIgnoreCase("A2M")){
-              A2M++;
-             }
-           if(gene.equalsIgnoreCase("BAX")){
-              BAX++;
-             }
-           if(gene.equalsIgnoreCase("CAT")){
-              CAT++;
-             }
-           if(gene.equalsIgnoreCase("DLL3")){
-              DLL3++;
-             }
-           if(gene.equalsIgnoreCase("EGF")){
-              EGF++;
-             }
-           if(gene.equalsIgnoreCase("FOS")){
-              FOS++;
-             }
-           if(gene.equalsIgnoreCase("GH1")){
-              GH1++;
-             }
-           if(gene.equalsIgnoreCase("HSF1")){
-              HSF1++;
-             }
-           if(gene.equalsIgnoreCase("IGF1")){
-              IGF1++;
-             }
-           if(gene.equalsIgnoreCase("LEP")){
-              LEP++;
-             }
-           }
-        dcd.setValue("A2M", A2M);
-        dcd.setValue("BAX", BAX);
-        dcd.setValue("CAT", CAT);
-        dcd.setValue("DLL3", DLL3);
-        dcd.setValue("EGF", EGF);
-        dcd.setValue("FOS", FOS);
-        dcd.setValue("GH1", GH1);
-        dcd.setValue("HSF1", HSF1);
-        dcd.setValue("IGF1", IGF1);
-        dcd.setValue("LEP", LEP);
-        
-        JFreeChart chart = ChartFactory.createPieChart3D("Predominent Gene in Diseases", dcd, true, true,true);
-        PiePlot3D plot = (PiePlot3D)chart.getPlot();
-        
-        ChartFrame panel = new ChartFrame("Pie Chart",chart);
-        panel.setVisible(true);
-        panel.setSize(2000,1000);
-    }//GEN-LAST:event_report3BtnActionPerformed
-
     private void backBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backBtnActionPerformed
         userProcessContainer.remove(this);
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
@@ -539,6 +469,5 @@ public class ViewReportsJPanel extends javax.swing.JPanel {
     private javax.swing.JButton backBtn;
     private javax.swing.JButton report1Btn;
     private javax.swing.JButton report2Btn;
-    private javax.swing.JButton report3Btn;
     // End of variables declaration//GEN-END:variables
 }

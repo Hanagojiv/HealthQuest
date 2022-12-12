@@ -71,14 +71,14 @@ public class DoctorRequestJpanel extends javax.swing.JPanel {
                 row[4] = request.getReceiver();
                 row[5] = request.getStatus();
                 String result = ((LabTestWorkRequest) request).getPatient().getNewBioTechnology();
-                if(request.getReceiver()==null||request.getReceiver().equals("Processing"))
-                {
-                     row[6]=null;
-                }else
-                {
-                row[6] = result == null ? "N/A(BioTechnology Exists)" : result;
-                }
-                row[7] = ((LabTestWorkRequest) request).getPatient().getClinicalStatus();
+//                if(request.getReceiver()==null||request.getReceiver().equals("Processing"))
+//                {
+//                     row[6]=null;
+//                }else
+//                {
+////                row[6] = result == null ? "N/A(BioTechnology Exists)" : result;
+//                }
+                row[6] = ((LabTestWorkRequest) request).getPatient().getClinicalStatus();
 
                 model.addRow(row);
             }
@@ -112,7 +112,7 @@ public class DoctorRequestJpanel extends javax.swing.JPanel {
         viewResultsbtn = new javax.swing.JButton();
         clincalTrail = new javax.swing.JButton();
         sexcomboBox = new javax.swing.JComboBox<>();
-        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(153, 153, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -140,7 +140,7 @@ public class DoctorRequestJpanel extends javax.swing.JPanel {
                 refreshbtnActionPerformed(evt);
             }
         });
-        add(refreshbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(980, 410, 120, 40));
+        add(refreshbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 410, 120, 40));
 
         requestTestBtn.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 0, 24)); // NOI18N
         requestTestBtn.setForeground(new java.awt.Color(0, 0, 102));
@@ -158,14 +158,14 @@ public class DoctorRequestJpanel extends javax.swing.JPanel {
 
             },
             new String [] {
-                "Patient Name", "Age", "Sex", "Message", "Receiver", "Status", "New Drug", "Clinical Trail"
+                "Patient Name", "Age", "Sex", "Message", "Receiver", "Status", "Clinical Trail"
             }
         ) {
             Class[] types = new Class [] {
-                java.lang.String.class, java.lang.Integer.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
+                java.lang.String.class, java.lang.Integer.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
             };
             boolean[] canEdit = new boolean [] {
-                false, false, false, false, false, false, false, true
+                false, false, false, false, false, false, true
             };
 
             public Class getColumnClass(int columnIndex) {
@@ -242,8 +242,9 @@ public class DoctorRequestJpanel extends javax.swing.JPanel {
         });
         add(sexcomboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 250, 287, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/Doctorlab.jpg"))); // NOI18N
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 20, -1, 300));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/doc16.jpg"))); // NOI18N
+        jLabel2.setText("jLabel2");
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(-2, -166, 1780, 1530));
     }// </editor-fold>//GEN-END:initComponents
 
     private void refreshbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_refreshbtnActionPerformed
@@ -431,7 +432,7 @@ public class DoctorRequestJpanel extends javax.swing.JPanel {
     private javax.swing.JLabel diagnosisLbl;
     private javax.swing.JTable doctorRequestTbl;
     private javax.swing.JLabel enterpriseLbl;
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel nameLbl;
     private javax.swing.JTextField nameTxtField;

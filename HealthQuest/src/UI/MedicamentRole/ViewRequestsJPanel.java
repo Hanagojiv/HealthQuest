@@ -90,8 +90,8 @@ public class ViewRequestsJPanel extends javax.swing.JPanel {
         reqmedicineLbl = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(102, 255, 255));
-        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        setBackground(new java.awt.Color(255, 255, 255));
+        setLayout(null);
 
         BioTechnologyRequestsTable.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 0, 20)); // NOI18N
         BioTechnologyRequestsTable.setModel(new javax.swing.table.DefaultTableModel(
@@ -113,9 +113,10 @@ public class ViewRequestsJPanel extends javax.swing.JPanel {
         BioTechnologyRequestsTable.setRowHeight(25);
         jScrollPane.setViewportView(BioTechnologyRequestsTable);
 
-        add(jScrollPane, new org.netbeans.lib.awtextra.AbsoluteConstraints(132, 208, 1045, 277));
+        add(jScrollPane);
+        jScrollPane.setBounds(100, 160, 1045, 190);
 
-        backBtn.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 24)); // NOI18N
+        backBtn.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         backBtn.setForeground(new java.awt.Color(0, 0, 102));
         backBtn.setText(" BACK");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -123,9 +124,10 @@ public class ViewRequestsJPanel extends javax.swing.JPanel {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 590, 136, -1));
+        add(backBtn);
+        backBtn.setBounds(470, 470, 136, 35);
 
-        refreshBtn.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 24)); // NOI18N
+        refreshBtn.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         refreshBtn.setForeground(new java.awt.Color(0, 0, 102));
         refreshBtn.setText("REFRESH");
         refreshBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -133,15 +135,19 @@ public class ViewRequestsJPanel extends javax.swing.JPanel {
                 refreshBtnActionPerformed(evt);
             }
         });
-        add(refreshBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(694, 590, 136, -1));
+        add(refreshBtn);
+        refreshBtn.setBounds(690, 470, 160, 35);
 
-        reqmedicineLbl.setFont(new java.awt.Font("Microsoft JhengHei UI", 1, 48)); // NOI18N
+        reqmedicineLbl.setFont(new java.awt.Font("Times New Roman", 3, 48)); // NOI18N
         reqmedicineLbl.setForeground(new java.awt.Color(0, 0, 102));
         reqmedicineLbl.setText("Requested Medicine Details");
-        add(reqmedicineLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 40, -1, -1));
+        add(reqmedicineLbl);
+        reqmedicineLbl.setBounds(310, 40, 547, 56);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/MedicineRequest.jpg"))); // NOI18N
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1000, 50, -1, 110));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/med.jpg"))); // NOI18N
+        jLabel1.setText("jLabel1");
+        add(jLabel1);
+        jLabel1.setBounds(2, -55, 1090, 1330);
     }// </editor-fold>//GEN-END:initComponents
 
     private void backBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backBtnActionPerformed
@@ -162,8 +168,8 @@ public class ViewRequestsJPanel extends javax.swing.JPanel {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton backBtn;
     private javax.swing.JTable BioTechnologyRequestsTable;
+    private javax.swing.JButton backBtn;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane;
     private javax.swing.JButton refreshBtn;

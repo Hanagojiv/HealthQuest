@@ -62,7 +62,7 @@ public class ViewDetailsJPanel extends javax.swing.JPanel {
 
         serialNumLbl = new javax.swing.JLabel();
         serialNumTxtField = new javax.swing.JTextField();
-        BioTechnologyLbl = new javax.swing.JLabel();
+        drugLbl = new javax.swing.JLabel();
         BioTechnologyNameTxtField = new javax.swing.JTextField();
         availLbl = new javax.swing.JLabel();
         availQuantityTxtField = new javax.swing.JTextField();
@@ -72,45 +72,51 @@ public class ViewDetailsJPanel extends javax.swing.JPanel {
         medicineLbl = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(102, 255, 255));
-        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        setBackground(new java.awt.Color(0, 153, 255));
+        setLayout(null);
 
-        serialNumLbl.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
-        serialNumLbl.setForeground(new java.awt.Color(0, 0, 102));
+        serialNumLbl.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
+        serialNumLbl.setForeground(new java.awt.Color(255, 255, 255));
         serialNumLbl.setText("SERIAL NUMBER:");
-        add(serialNumLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(288, 281, -1, 30));
+        add(serialNumLbl);
+        serialNumLbl.setBounds(288, 281, 202, 30);
 
         serialNumTxtField.setEditable(false);
-        serialNumTxtField.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        serialNumTxtField.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         serialNumTxtField.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        add(serialNumTxtField, new org.netbeans.lib.awtextra.AbsoluteConstraints(489, 283, 207, -1));
+        add(serialNumTxtField);
+        serialNumTxtField.setBounds(489, 283, 207, 33);
 
-        BioTechnologyLbl.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
-        BioTechnologyLbl.setForeground(new java.awt.Color(0, 0, 102));
-        BioTechnologyLbl.setText("Medicine Name:");
-        add(BioTechnologyLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(295, 379, -1, 30));
+        drugLbl.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
+        drugLbl.setForeground(new java.awt.Color(255, 255, 255));
+        drugLbl.setText("Medicine Name:");
+        add(drugLbl);
+        drugLbl.setBounds(295, 379, 166, 30);
 
         BioTechnologyNameTxtField.setEditable(false);
-        BioTechnologyNameTxtField.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        BioTechnologyNameTxtField.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         BioTechnologyNameTxtField.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        add(BioTechnologyNameTxtField, new org.netbeans.lib.awtextra.AbsoluteConstraints(489, 383, 207, -1));
+        add(BioTechnologyNameTxtField);
+        BioTechnologyNameTxtField.setBounds(489, 383, 207, 33);
 
-        availLbl.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
-        availLbl.setForeground(new java.awt.Color(0, 0, 102));
+        availLbl.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
+        availLbl.setForeground(new java.awt.Color(255, 255, 255));
         availLbl.setText("Availability:");
-        add(availLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(338, 476, -1, 30));
+        add(availLbl);
+        availLbl.setBounds(338, 476, 124, 30);
 
         availQuantityTxtField.setEditable(false);
-        availQuantityTxtField.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        availQuantityTxtField.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         availQuantityTxtField.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         availQuantityTxtField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 availQuantityTxtFieldActionPerformed(evt);
             }
         });
-        add(availQuantityTxtField, new org.netbeans.lib.awtextra.AbsoluteConstraints(489, 479, 207, -1));
+        add(availQuantityTxtField);
+        availQuantityTxtField.setBounds(489, 479, 207, 33);
 
-        updateButton.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 24)); // NOI18N
+        updateButton.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         updateButton.setForeground(new java.awt.Color(0, 0, 102));
         updateButton.setText("UPDATE");
         updateButton.addActionListener(new java.awt.event.ActionListener() {
@@ -118,9 +124,10 @@ public class ViewDetailsJPanel extends javax.swing.JPanel {
                 updateButtonActionPerformed(evt);
             }
         });
-        add(updateButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(524, 584, 136, -1));
+        add(updateButton);
+        updateButton.setBounds(524, 584, 136, 35);
 
-        saveButton.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 24)); // NOI18N
+        saveButton.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         saveButton.setForeground(new java.awt.Color(0, 0, 102));
         saveButton.setText("SAVE");
         saveButton.addActionListener(new java.awt.event.ActionListener() {
@@ -128,9 +135,10 @@ public class ViewDetailsJPanel extends javax.swing.JPanel {
                 saveButtonActionPerformed(evt);
             }
         });
-        add(saveButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(349, 584, 136, -1));
+        add(saveButton);
+        saveButton.setBounds(349, 584, 136, 35);
 
-        backButton.setFont(new java.awt.Font("Microsoft YaHei UI Light", 0, 24)); // NOI18N
+        backButton.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         backButton.setForeground(new java.awt.Color(0, 0, 102));
         backButton.setText("BACK");
         backButton.addActionListener(new java.awt.event.ActionListener() {
@@ -138,15 +146,19 @@ public class ViewDetailsJPanel extends javax.swing.JPanel {
                 backButtonActionPerformed(evt);
             }
         });
-        add(backButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(169, 584, 136, -1));
+        add(backButton);
+        backButton.setBounds(169, 584, 136, 35);
 
-        medicineLbl.setFont(new java.awt.Font("Microsoft JhengHei UI", 1, 48)); // NOI18N
+        medicineLbl.setFont(new java.awt.Font("Times New Roman", 3, 48)); // NOI18N
         medicineLbl.setForeground(new java.awt.Color(0, 0, 102));
         medicineLbl.setText("View Medicine Details");
-        add(medicineLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 90, -1, -1));
+        add(medicineLbl);
+        medicineLbl.setBounds(320, 150, 443, 56);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/medicineDetails.jpg"))); // NOI18N
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 0, 910, 790));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/BioTechnologySupplier/pills.jpg"))); // NOI18N
+        jLabel1.setText("jLabel1");
+        add(jLabel1);
+        jLabel1.setBounds(140, 240, 720, 410);
     }// </editor-fold>//GEN-END:initComponents
 
     private void availQuantityTxtFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_availQuantityTxtFieldActionPerformed
@@ -214,11 +226,11 @@ public class ViewDetailsJPanel extends javax.swing.JPanel {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JTextField BioTechnologyNameTxtField;
     private javax.swing.JLabel availLbl;
     private javax.swing.JTextField availQuantityTxtField;
     private javax.swing.JButton backButton;
-    private javax.swing.JLabel BioTechnologyLbl;
-    private javax.swing.JTextField BioTechnologyNameTxtField;
+    private javax.swing.JLabel drugLbl;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel medicineLbl;
     private javax.swing.JButton saveButton;

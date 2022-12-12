@@ -11,7 +11,7 @@ import com.twilio.type.PhoneNumber;
 
 /**
 *
-* @author anuja
+* @author vivekhanagoji
 */
 // send message to phone number
 public class SmsSender {

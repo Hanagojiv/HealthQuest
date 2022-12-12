@@ -317,3 +317,1415 @@ Invalid credentials for user
 Logged in User RoleHealth.Role.SystemAdminRole
 Entering Main JFrame	UI.MainJFrame
 Logged in User RoleHealth.Role.SystemAdminRole
+Entering Main JFrame	UI.MainJFrame
+Entering Main JFrame	UI.MainJFrame
+Invalid credentials for user
+Logged in User RoleHealth.Role.SystemAdminRole
+user adding enterpirse adminsUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding the following OrganizationBioTechnology
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding users 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding the following Organizationmedicament
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding following employee 	vivekhin following Organization 	Medicament Organization	UI.AdministrativeRole.ManageEmployeeJpanel
+Enterprise admin adding users 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin creating user with name 	vivekhRoleHealth.Role.MedicalRoleIn OrganizationMedicament Organization	UI.AdministrativeRole.ManageUserAccountJpanel
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding following employee 	himanin following Organization 	BioTechnology Organization	UI.AdministrativeRole.ManageEmployeeJpanel
+Enterprise admin adding users 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin creating user with name 	himanRoleHealth.Role.BioTechnologyRoleIn OrganizationBioTechnology Organization	UI.AdministrativeRole.ManageUserAccountJpanel
+Invalid credentials for user
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding the following OrganizationChemical
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding following employee 	waliin following Organization 	Chemical Organization	UI.AdministrativeRole.ManageEmployeeJpanel
+Enterprise admin adding users 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin creating user with name 	waliRoleHealth.Role.ChemicalRoleIn OrganizationChemical Organization	UI.AdministrativeRole.ManageUserAccountJpanel
+Current Enterprise	ruby
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor role
+Medicament Organization
+Current Enterprise	pinak
+Current Organization	Medicament Organization
+Current Network	Boston
+request sent to medicament
+saving prescription details to prescription data.txt
+going back to Doctors work area
+inside doctor's lab request
+sent request to Lab
+entering clinical Page
+updated patient status to Failure
+Current Enterprise	ruby
+Current Organization	Lab Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.LabRole
+aastha logged in
+aastha has assigned the request
+status has been set to pending
+entering process request page
+Current Enterprise	pinak
+Current Organization	Medicament Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.MedicalRole
+vivekh logged in
+medicine added successfully
+vivekh sending request to BioTechnology Organization
+vivekh viewed the BioTechnology requests
+Current Enterprise	serum
+Current Organization	BioTechnology Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.BioTechnologyRole
+himan logged in BioTechnology work area
+himan assigned himself a task
+himan entering processing page
+himan entering processing page
+delivery date updated
+himan entering lab requests page
+himan entering nonexisting page as BioTechnology doesn't exist
+himan entering chemical requests page
+himan added chemicalxyz
+chemical request has been sent to chemical organization
+himan entering view chemical details page
+Invalid credentials for user
+Current Enterprise	ind
+Current Organization	Chemical Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.ChemicalRole
+wali assigned a task to himself
+wali processes the task
+request updated successfully
+Entering Main JFrame	UI.MainJFrame
+Logged in User RoleHealth.Role.SystemAdminRole
+user adding enterpirse adminsUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+system admin creating enterprise admin	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+name of the USER is: 	hanagojivivek@gmial.comname of the enterprise is: 	Vivekname of network is	Boston	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+system admin creating enterprise admin	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+system admin creating enterprise admin	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+name of the USER is: 	satyam.jagtap1@gmail.comname of the enterprise is: 	satyaname of network is	Boston	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+Current Enterprise	ruby
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin adding users 	UI.AdministrativeRole.AdminWorkAreaJpanel
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {s}->https://api.twilio.com:443][total available: 0; route allocated: 0 of 10; total allocated: 0 of 20]
+Connection leased: [id: 0][route: {s}->https://api.twilio.com:443][total available: 0; route allocated: 1 of 10; total allocated: 1 of 20]
+Opening connection {s}->https://api.twilio.com:443
+Connecting to api.twilio.com/52.20.104.111:443
+Connecting socket to api.twilio.com/52.20.104.111:443 with timeout 10000
+Enabled protocols: [TLSv1.2]
+Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Starting handshake
+Secure session established
+ negotiated protocol: TLSv1.2
+ negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+ peer principal: CN=*.twilio.com, O=Twilio Inc., L=San Francisco, ST=California, C=US
+ peer alternative names: [*.twilio.com, *.us1.twilio.com, *.ashburn.us1.twilio.com, *.ashburn.ie1.twilio.com, *.ashburn.de1.twilio.com, *.ashburn.au1.twilio.com, *.ashburn-ix.us1.twilio.com, *.ashburn-ix.ie1.twilio.com, *.ashburn-ix.de1.twilio.com, *.ashburn-ix.au1.twilio.com, *.roaming.us1.twilio.com, *.roaming.ie1.twilio.com, *.roaming.de1.twilio.com, *.roaming.au1.twilio.com, *.roaming.twilio.com, twilio.com, us1.twilio.com, ashburn.us1.twilio.com, ashburn.ie1.twilio.com, ashburn.de1.twilio.com, ashburn.au1.twilio.com, ashburn-ix.us1.twilio.com, ashburn-ix.ie1.twilio.com, ashburn-ix.de1.twilio.com, ashburn-ix.au1.twilio.com, roaming.us1.twilio.com, roaming.ie1.twilio.com, roaming.de1.twilio.com, roaming.au1.twilio.com, roaming.twilio.com]
+ issuer principal: CN=DigiCert TLS RSA SHA256 2020 CA1, O=DigiCert Inc, C=US
+Connection established 10.110.120.114:52039<->52.20.104.111:443
+http-outgoing-0: set socket timeout to 30500
+Executing request POST /2010-04-01/Accounts/AC71cf36ea8bd25b5f8b87c9ee46d81ef5/Messages.json HTTP/1.1
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /2010-04-01/Accounts/AC71cf36ea8bd25b5f8b87c9ee46d81ef5/Messages.json HTTP/1.1
+http-outgoing-0 >> Authorization: Basic QUM3MWNmMzZlYThiZDI1YjVmOGI4N2M5ZWU0NmQ4MWVmNTo3NThkZmQ3YTg2YThjMDk1NGIzMTBkNzhkYWI5YWQzMQ==
+http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+http-outgoing-0 >> X-Twilio-Client: java-8.4.0
+http-outgoing-0 >> User-Agent: twilio-java/8.4.0 (1.8.0_292)
+http-outgoing-0 >> Accept: application/json
+http-outgoing-0 >> Accept-Encoding: utf-8
+http-outgoing-0 >> Content-Length: 90
+http-outgoing-0 >> Host: api.twilio.com
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> "POST /2010-04-01/Accounts/AC71cf36ea8bd25b5f8b87c9ee46d81ef5/Messages.json HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Authorization: Basic QUM3MWNmMzZlYThiZDI1YjVmOGI4N2M5ZWU0NmQ4MWVmNTo3NThkZmQ3YTg2YThjMDk1NGIzMTBkNzhkYWI5YWQzMQ==[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+http-outgoing-0 >> "X-Twilio-Client: java-8.4.0[\r][\n]"
+http-outgoing-0 >> "User-Agent: twilio-java/8.4.0 (1.8.0_292)[\r][\n]"
+http-outgoing-0 >> "Accept: application/json[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: utf-8[\r][\n]"
+http-outgoing-0 >> "Content-Length: 90[\r][\n]"
+http-outgoing-0 >> "Host: api.twilio.com[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "To=%2B18574984371&From=%2B13609971635&Body=Hey%2C+Your+Phone+is+Successfully+Authenticated"
+http-outgoing-0 << "HTTP/1.1 201 Created[\r][\n]"
+http-outgoing-0 << "Date: Mon, 12 Dec 2022 10:21:14 GMT[\r][\n]"
+http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+http-outgoing-0 << "Content-Length: 847[\r][\n]"
+http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+http-outgoing-0 << "Twilio-Request-Id: RQ0492287c2165c1a06ef15d3999eb6f25[\r][\n]"
+http-outgoing-0 << "Twilio-Request-Duration: 0.136[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Headers: Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Methods: GET, POST, DELETE, OPTIONS[\r][\n]"
+http-outgoing-0 << "Access-Control-Expose-Headers: ETag[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Credentials: true[\r][\n]"
+http-outgoing-0 << "X-Powered-By: AT-5000[\r][\n]"
+http-outgoing-0 << "Twilio-Concurrent-Requests: 1[\r][\n]"
+http-outgoing-0 << "X-Shenanigans: none[\r][\n]"
+http-outgoing-0 << "X-Home-Region: us1[\r][\n]"
+http-outgoing-0 << "X-API-Domain: api.twilio.com[\r][\n]"
+http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"body": "Sent from your Twilio trial account - Hey, Your Phone is Successfully Authenticated", "num_segments": "1", "direction": "outbound-api", "from": "+13609971635", "date_updated": "Mon, 12 Dec 2022 10:21:14 +0000", "price": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC71cf36ea8bd25b5f8b87c9ee46d81ef5/Messages/SM0492287c2165c1a06ef15d3999eb6f25.json", "account_sid": "AC71cf36ea8bd25b5f8b87c9ee46d81ef5", "num_media": "0", "to": "+18574984371", "date_created": "Mon, 12 Dec 2022 10:21:14 +0000", "status": "queued", "sid": "SM0492287c2165c1a06ef15d3999eb6f25", "date_sent": null, "messaging_service_sid": null, "error_code": null, "price_unit": "USD", "api_version": "2010-04-01", "subresource_uris": {"media": "/2010-04-01/Accounts/AC71cf36ea8bd25b5f8b87c9ee46d81ef5/Messages/SM0492287c2165c1a06ef15d3999eb6f25/Media.json"}}"
+http-outgoing-0 << HTTP/1.1 201 Created
+http-outgoing-0 << Date: Mon, 12 Dec 2022 10:21:14 GMT
+http-outgoing-0 << Content-Type: application/json
+http-outgoing-0 << Content-Length: 847
+http-outgoing-0 << Connection: keep-alive
+http-outgoing-0 << Twilio-Request-Id: RQ0492287c2165c1a06ef15d3999eb6f25
+http-outgoing-0 << Twilio-Request-Duration: 0.136
+http-outgoing-0 << Access-Control-Allow-Origin: *
+http-outgoing-0 << Access-Control-Allow-Headers: Accept, Authorization, Content-Type, If-Match, If-Modified-Since, If-None-Match, If-Unmodified-Since, Idempotency-Key
+http-outgoing-0 << Access-Control-Allow-Methods: GET, POST, DELETE, OPTIONS
+http-outgoing-0 << Access-Control-Expose-Headers: ETag
+http-outgoing-0 << Access-Control-Allow-Credentials: true
+http-outgoing-0 << X-Powered-By: AT-5000
+http-outgoing-0 << Twilio-Concurrent-Requests: 1
+http-outgoing-0 << X-Shenanigans: none
+http-outgoing-0 << X-Home-Region: us1
+http-outgoing-0 << X-API-Domain: api.twilio.com
+http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {s}->https://api.twilio.com:443] can be kept alive indefinitely
+http-outgoing-0: set socket timeout to 0
+Connection released: [id: 0][route: {s}->https://api.twilio.com:443][total available: 1; route allocated: 1 of 10; total allocated: 1 of 20]
+Enterprise admin creating user with name 	satyammmmRoleHealth.Role.DoctorRoleIn OrganizationDoctor Organization	UI.AdministrativeRole.ManageUserAccountJpanel
+Entering Main JFrame	UI.MainJFrame
+Entering Main JFrame	UI.MainJFrame
+Logged in User RoleHealth.Role.SystemAdminRole
+user creating networkUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+user creating enterpirseUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+Current Enterprise	ruby
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor role
+Medicament Organization
+Current Enterprise	pinak
+Current Organization	Medicament Organization
+Current Network	Boston
+request sent to medicament
+saving prescription details to prescription data.txt
+Entering Main JFrame	UI.MainJFrame
+Logged in User RoleHealth.Role.SystemAdminRole
+user creating enterpirseUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+Current Enterprise	ruby
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor role
+Medicament Organization
+Current Enterprise	pinak
+Current Organization	Medicament Organization
+Current Network	Boston
+request sent to medicament
+saving prescription details to prescription data.txt
+going back to Doctors work area
+inside doctor's lab request
+Entering Main JFrame	UI.MainJFrame
+Current Enterprise	ruby
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+Logged in User RoleHealth.Role.SystemAdminRole
+user creating networkUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+Sysadmin Creating NetworkUI.SystemAdminWorkArea.ManageNetworkJPanel
+Name of network Created:	Pune
+user creating enterpirseUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+user adding enterpirse adminsUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding users 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding users 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding users 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding users 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Current Enterprise	ruby
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+Current Enterprise	ruby
+Current Organization	Lab Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.LabRole
+aastha logged in
+Current Enterprise	ruby
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor role
+Medicament Organization
+Current Enterprise	pinak
+Current Organization	Medicament Organization
+Current Network	Boston
+request sent to medicament
+saving prescription details to prescription data.txt
+going back to Doctors work area
+inside doctor's lab request
+Entering Main JFrame	UI.MainJFrame
+Current Enterprise	ruby
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+inside doctor's lab request
+Entering Main JFrame	UI.MainJFrame
+Current Enterprise	ruby
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor role
+Medicament Organization
+Current Enterprise	pinak
+Current Organization	Medicament Organization
+Current Network	Boston
+request sent to medicament
+saving prescription details to prescription data.txt
+going back to Doctors work area
+inside doctor's lab request
+inside doctor's lab request
+Entering Main JFrame	UI.MainJFrame
+Current Enterprise	ruby
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor role
+Medicament Organization
+Current Enterprise	pinak
+Current Organization	Medicament Organization
+Current Network	Boston
+request sent to medicament
+saving prescription details to prescription data.txt
+going back to Doctors work area
+inside doctor's lab request
+Entering Main JFrame	UI.MainJFrame
+Current Enterprise	ruby
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor role
+going back to Doctors work area
+inside doctor's lab request
+Entering Main JFrame	UI.MainJFrame
+Current Enterprise	ruby
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+sent request to Lab
+inside doctor's lab request
+Entering Main JFrame	UI.MainJFrame
+Current Enterprise	ruby
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+sent request to Lab
+Current Enterprise	ruby
+Current Organization	Lab Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.LabRole
+aastha logged in
+aastha has assigned the request
+status has been set to pending
+entering process request page
+Current Enterprise	pinak
+Current Organization	Medicament Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.MedicalRole
+vivekh logged in
+medicine added successfully
+vivekh sending request to BioTechnology Organization
+Current Enterprise	serum
+Current Organization	BioTechnology Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.BioTechnologyRole
+himan logged in BioTechnology work area
+himan assigned himself a task
+himan entering processing page
+delivery date updated
+himan entering lab requests page
+himan entering chemical requests page
+himan added chemicalwwdsd
+chemical request has been sent to chemical organization
+Current Enterprise	ind
+Current Organization	Chemical Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.ChemicalRole
+wali assigned a task to himself
+wali processes the task
+request updated successfully
+Entering Main JFrame	UI.MainJFrame
+Logged in User RoleHealth.Role.SystemAdminRole
+user creating networkUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+Sysadmin Creating NetworkUI.SystemAdminWorkArea.ManageNetworkJPanel
+Name of network Created:	Mumbai
+user creating enterpirseUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+name of the Enterpise is: 	CityHosname of Network in which the enterprise is: 	Mumbai	UI.SystemAdminWorkArea.ManageEnterpriseJPanel
+name of the Enterpise is: 	Biodrugname of Network in which the enterprise is: 	Mumbai	UI.SystemAdminWorkArea.ManageEnterpriseJPanel
+name of the Enterpise is: 	ChemIndname of Network in which the enterprise is: 	Mumbai	UI.SystemAdminWorkArea.ManageEnterpriseJPanel
+user adding enterpirse adminsUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+user creating enterpirseUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+name of the Enterpise is: 	SureshMedicalsname of Network in which the enterprise is: 	Boston	UI.SystemAdminWorkArea.ManageEnterpriseJPanel
+user adding enterpirse adminsUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+user creating networkUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+user creating enterpirseUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+name of the Enterpise is: 	SureshMedicalsname of Network in which the enterprise is: 	Mumbai	UI.SystemAdminWorkArea.ManageEnterpriseJPanel
+user adding enterpirse adminsUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+system admin creating enterprise admin	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+name of the USER is: 	satyamname of the enterprise is: 	satyamname of network is	Mumbai	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+system admin creating enterprise admin	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+name of the USER is: 	vivekname of the enterprise is: 	vivekname of network is	Mumbai	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+system admin creating enterprise admin	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+name of the USER is: 	himanname of the enterprise is: 	himanname of network is	Mumbai	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+system admin creating enterprise admin	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+name of the USER is: 	waliname of the enterprise is: 	waliname of network is	Mumbai	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+system admin creating enterprise admin	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+name of the USER is: 	waliname of the enterprise is: 	waliname of network is	Mumbai	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+system admin creating enterprise admin	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+name of the USER is: 	vivekname of the enterprise is: 	vivekname of network is	Mumbai	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Logged in User RoleHealth.Role.SystemAdminRole
+user creating enterpirseUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+user adding enterpirse adminsUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+system admin creating enterprise admin	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+name of the USER is: 	satyam25name of the enterprise is: 	satyam25name of network is	Mumbai	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+system admin creating enterprise admin	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+name of the USER is: 	himan25name of the enterprise is: 	himan25name of network is	Mumbai	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+system admin creating enterprise admin	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+name of the USER is: 	wali25name of the enterprise is: 	wali25name of network is	Mumbai	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+system admin creating enterprise admin	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+name of the USER is: 	vivek25name of the enterprise is: 	vivek25name of network is	Mumbai	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding the following OrganizationDoctor
+Enterprise admin adding the following OrganizationLab
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding following employee 	Satyamin following Organization 	Doctor Organization	UI.AdministrativeRole.ManageEmployeeJpanel
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding following employee 	Satyamin following Organization 	Lab Organization	UI.AdministrativeRole.ManageEmployeeJpanel
+Enterprise admin adding following employee 	satyamlabin following Organization 	Lab Organization	UI.AdministrativeRole.ManageEmployeeJpanel
+Enterprise admin adding users 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin creating user with name 	satyamdocRoleHealth.Role.DoctorRoleIn OrganizationDoctor Organization	UI.AdministrativeRole.ManageUserAccountJpanel
+Enterprise admin creating user with name 	satyamlabRoleHealth.Role.LabRoleIn OrganizationLab Organization	UI.AdministrativeRole.ManageUserAccountJpanel
+Current Enterprise	CityHos
+Current Organization	Doctor Organization
+Current Network	Mumbai
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor role
+saving prescription details to prescription data.txt
+saving prescription details to prescription data.txt
+Current Enterprise	ruby
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor role
+Medicament Organization
+Current Enterprise	pinak
+Current Organization	Medicament Organization
+Current Network	Boston
+request sent to medicament
+saving prescription details to prescription data.txt
+Entering Main JFrame	UI.MainJFrame
+Invalid credentials for user
+Invalid credentials for user
+Invalid credentials for user
+Entering Main JFrame	UI.MainJFrame
+Invalid credentials for user
+Invalid credentials for user
+Logged in User RoleHealth.Role.SystemAdminRole
+user creating networkUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+Sysadmin Creating NetworkUI.SystemAdminWorkArea.ManageNetworkJPanel
+Name of network Created:	Boston
+user creating enterpirseUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+name of the Enterpise is: 	Satyamname of Network in which the enterprise is: 	Boston	UI.SystemAdminWorkArea.ManageEnterpriseJPanel
+name of the Enterpise is: 	Vivekname of Network in which the enterprise is: 	Boston	UI.SystemAdminWorkArea.ManageEnterpriseJPanel
+name of the Enterpise is: 	Himanname of Network in which the enterprise is: 	Boston	UI.SystemAdminWorkArea.ManageEnterpriseJPanel
+name of the Enterpise is: 	Waliname of Network in which the enterprise is: 	Boston	UI.SystemAdminWorkArea.ManageEnterpriseJPanel
+user adding enterpirse adminsUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+system admin creating enterprise admin	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+name of the USER is: 	satyamname of the enterprise is: 	satyamname of network is	Boston	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+system admin creating enterprise admin	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+name of the USER is: 	vivekname of the enterprise is: 	vivekname of network is	Boston	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+system admin creating enterprise admin	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+name of the USER is: 	himanname of the enterprise is: 	himanname of network is	Boston	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+system admin creating enterprise admin	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+name of the USER is: 	waliname of the enterprise is: 	waliname of network is	Boston	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding the following OrganizationDoctor
+Enterprise admin adding the following OrganizationLab
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Entering Main JFrame	UI.MainJFrame
+Logged in User RoleHealth.Role.SystemAdminRole
+user creating networkUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+Sysadmin Creating NetworkUI.SystemAdminWorkArea.ManageNetworkJPanel
+Name of network Created:	Boston
+user creating enterpirseUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+name of the Enterpise is: 	CityHospitalname of Network in which the enterprise is: 	Boston	UI.SystemAdminWorkArea.ManageEnterpriseJPanel
+name of the Enterpise is: 	SureshMedicalsname of Network in which the enterprise is: 	Boston	UI.SystemAdminWorkArea.ManageEnterpriseJPanel
+name of the Enterpise is: 	BioDrugname of Network in which the enterprise is: 	Boston	UI.SystemAdminWorkArea.ManageEnterpriseJPanel
+name of the Enterpise is: 	ChemIndname of Network in which the enterprise is: 	Boston	UI.SystemAdminWorkArea.ManageEnterpriseJPanel
+user adding enterpirse adminsUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+system admin creating enterprise admin	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+name of the USER is: 	satyam.jagtap1@gmail.comname of the enterprise is: 	Satyamname of network is	Boston	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+system admin creating enterprise admin	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+name of the USER is: 	hanagojivivek@gmail.comname of the enterprise is: 	Vivekname of network is	Boston	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+system admin creating enterprise admin	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+name of the USER is: 	johnname of the enterprise is: 	Johnname of network is	Boston	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+system admin creating enterprise admin	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+name of the USER is: 	petername of the enterprise is: 	Petername of network is	Boston	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding the following OrganizationDoctor
+Enterprise admin adding the following OrganizationLab
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding following employee 	Stevein following Organization 	Doctor Organization	UI.AdministrativeRole.ManageEmployeeJpanel
+Enterprise admin adding following employee 	Tonyin following Organization 	Lab Organization	UI.AdministrativeRole.ManageEmployeeJpanel
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding users 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin creating user with name 	steveRoleHealth.Role.DoctorRoleIn OrganizationDoctor Organization	UI.AdministrativeRole.ManageUserAccountJpanel
+Enterprise admin creating user with name 	tonyRoleHealth.Role.LabRoleIn OrganizationLab Organization	UI.AdministrativeRole.ManageUserAccountJpanel
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding the following Organizationmedicament
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding following employee 	Robertin following Organization 	Medicament Organization	UI.AdministrativeRole.ManageEmployeeJpanel
+Enterprise admin adding users 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin creating user with name 	robertRoleHealth.Role.MedicalRoleIn OrganizationMedicament Organization	UI.AdministrativeRole.ManageUserAccountJpanel
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding the following OrganizationBioTechnology
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding following employee 	Brucein following Organization 	BioTechnology Organization	UI.AdministrativeRole.ManageEmployeeJpanel
+Enterprise admin adding users 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin creating user with name 	bruceRoleHealth.Role.BioTechnologyRoleIn OrganizationBioTechnology Organization	UI.AdministrativeRole.ManageUserAccountJpanel
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding the following OrganizationChemical
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding following employee 	Chadwickin following Organization 	Chemical Organization	UI.AdministrativeRole.ManageEmployeeJpanel
+Enterprise admin adding users 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin creating user with name 	chadRoleHealth.Role.ChemicalRoleIn OrganizationChemical Organization	UI.AdministrativeRole.ManageUserAccountJpanel
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor role
+Medicament Organization
+Current Enterprise	SureshMedicals
+Current Organization	Medicament Organization
+Current Network	Boston
+request sent to medicament
+saving prescription details to prescription data.txt
+going back to Doctors work area
+inside doctor's lab request
+inside doctor role
+Medicament Organization
+Current Enterprise	SureshMedicals
+Current Organization	Medicament Organization
+Current Network	Boston
+request sent to medicament
+saving prescription details to prescription data.txt
+Medicament Organization
+Current Enterprise	SureshMedicals
+Current Organization	Medicament Organization
+Current Network	Boston
+request sent to medicament
+saving prescription details to prescription data.txt
+Medicament Organization
+Current Enterprise	SureshMedicals
+Current Organization	Medicament Organization
+Current Network	Boston
+request sent to medicament
+saving prescription details to prescription data.txt
+going back to Doctors work area
+inside doctor's lab request
+sent request to Lab
+Current Enterprise	CityHospital
+Current Organization	Lab Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.LabRole
+tony logged in
+Entering Main JFrame	UI.MainJFrame
+Current Enterprise	CityHospital
+Current Organization	Lab Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.LabRole
+tony logged in
+tony has assigned the request
+status has been set to pending
+entering process request page
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+displaying results
+adding request to lab assistant
+entering clinical Page
+updated patient status to Success
+Current Enterprise	CityHospital
+Current Organization	Lab Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.LabRole
+tony logged in
+tony has assigned the request
+status has been set to pending
+entering process request page
+Current Enterprise	SureshMedicals
+Current Organization	Medicament Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.MedicalRole
+robert logged in
+medicine added successfully
+medicine added successfully
+robert sending request to BioTechnology Organization
+robert entering view details page
+robert viewed the BioTechnology requests
+Current Enterprise	BioDrug
+Current Organization	BioTechnology Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.BioTechnologyRole
+bruce logged in BioTechnology work area
+bruce assigned himself a task
+bruce entering processing page
+delivery date updated
+Current Enterprise	SureshMedicals
+Current Organization	Medicament Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.MedicalRole
+robert logged in
+medicine added successfully
+medicine added successfully
+robert sending request to BioTechnology Organization
+robert sending request to BioTechnology Organization
+Current Enterprise	BioDrug
+Current Organization	BioTechnology Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.BioTechnologyRole
+bruce logged in BioTechnology work area
+bruce entering chemical requests page
+bruce added chemicalCarbon
+chemical request has been sent to chemical organization
+bruce entering view chemical details page
+entering view chemical requests page
+bruce entering view chemical details page
+bruce updated chemical details successfully
+bruce updated chemical details successfully
+bruce assigned himself a task
+bruce entering processing page
+delivery date updated
+bruce entering BioTechnology adding page
+bruce entering BioTechnology adding page
+bruce assigned himself a task
+bruce entering processing page
+delivery date updated
+bruce entering BioTechnology adding page
+bruce added new BioTechnology Galafold
+bruce entering add chemicals page
+bruce added chemicals and genes to BioTechnology Galafold
+bruce entering lab requests page
+Current Enterprise	SureshMedicals
+Current Organization	Medicament Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.MedicalRole
+robert logged in
+Current Enterprise	CityHospital
+Current Organization	Lab Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.LabRole
+tony logged in
+entering process request page
+entering process request page
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+sent request to Lab
+Current Enterprise	CityHospital
+Current Organization	Lab Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.LabRole
+tony logged in
+tony has assigned the request
+status has been set to pending
+entering process request page
+Current Enterprise	CityHospital
+Current Organization	Lab Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.LabRole
+tony logged in
+Current Enterprise	SureshMedicals
+Current Organization	Medicament Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.MedicalRole
+robert logged in
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+sent request to Lab
+Current Enterprise	CityHospital
+Current Organization	Lab Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.LabRole
+tony logged in
+tony has assigned the request
+status has been set to pending
+entering process request page
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+Current Enterprise	CityHospital
+Current Organization	Lab Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.LabRole
+tony logged in
+Current Enterprise	SureshMedicals
+Current Organization	Medicament Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.MedicalRole
+robert logged in
+Current Enterprise	ChemInd
+Current Organization	Chemical Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.ChemicalRole
+chad assigned a task to himself
+chad processes the task
+Current Enterprise	BioDrug
+Current Organization	BioTechnology Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.BioTechnologyRole
+bruce logged in BioTechnology work area
+bruce entering lab requests page
+bruce entering nonexisting page as BioTechnology doesn't exist
+bruce entering nonexisting page as BioTechnology doesn't exist
+bruce entering nonexisting page as BioTechnology doesn't exist
+bruce entering BioTechnology adding page
+bruce entering lab requests page
+bruce entering lab requests page
+bruce entering nonexisting page as BioTechnology doesn't exist
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+sent request to Lab
+Current Enterprise	CityHospital
+Current Organization	Lab Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.LabRole
+tony logged in
+tony has assigned the request
+status has been set to pending
+entering process request page
+Current Enterprise	SureshMedicals
+Current Organization	Medicament Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.MedicalRole
+robert logged in
+Current Enterprise	BioDrug
+Current Organization	BioTechnology Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.BioTechnologyRole
+bruce logged in BioTechnology work area
+bruce entering lab requests page
+bruce entering nonexisting page as BioTechnology doesn't exist
+bruce entering BioTechnology adding page
+bruce added new BioTechnology Crocin
+bruce entering add chemicals page
+bruce added chemicals and genes to BioTechnology Crocin
+bruce entering lab requests page
+bruce entering nonexisting page as BioTechnology doesn't exist
+bruce entering chemical requests page
+bruce entering lab requests page
+bruce entering BioTechnology adding page
+bruce entering lab requests page
+Invalid credentials for user
+Current Enterprise	ChemInd
+Current Organization	Chemical Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.ChemicalRole
+chad processes the task
+request updated successfully
+Current Enterprise	CityHospital
+Current Organization	Lab Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.LabRole
+tony logged in
+Current Enterprise	BioDrug
+Current Organization	BioTechnology Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.BioTechnologyRole
+bruce logged in BioTechnology work area
+bruce entering BioTechnology adding page
+bruce entering add chemicals page
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor role
+going back to Doctors work area
+inside doctor's lab request
+displaying results
+adding request to lab assistant
+displaying results
+displaying results
+adding request to lab assistant
+displaying results
+adding request to lab assistant
+Current Enterprise	SureshMedicals
+Current Organization	Medicament Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.MedicalRole
+robert logged in
+Current Enterprise	CityHospital
+Current Organization	Lab Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.LabRole
+tony logged in
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+sent request to Lab
+Current Enterprise	CityHospital
+Current Organization	Lab Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.LabRole
+tony logged in
+tony has assigned the request
+status has been set to pending
+entering process request page
+Invalid credentials for user
+Current Enterprise	CityHospital
+Current Organization	Lab Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.LabRole
+tony logged in
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+displaying results
+adding request to lab assistant
+displaying results
+adding request to lab assistant
+entering clinical Page
+updated patient status to Success
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+sent request to Lab
+Current Enterprise	CityHospital
+Current Organization	Lab Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.LabRole
+tony logged in
+tony has assigned the request
+status has been set to pending
+entering process request page
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+displaying results
+adding request to lab assistant
+entering clinical Page
+updated patient status to Failure
+Current Enterprise	BioDrug
+Current Organization	BioTechnology Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.BioTechnologyRole
+bruce logged in BioTechnology work area
+bruce entering lab requests page
+bruce entering nonexisting page as BioTechnology doesn't exist
+bruce entering BioTechnology adding page
+Current Enterprise	SureshMedicals
+Current Organization	Medicament Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.MedicalRole
+robert logged in
+Current Enterprise	CityHospital
+Current Organization	Lab Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.LabRole
+tony logged in
+Current Enterprise	SureshMedicals
+Current Organization	Medicament Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.MedicalRole
+robert logged in
+Current Enterprise	BioDrug
+Current Organization	BioTechnology Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.BioTechnologyRole
+bruce logged in BioTechnology work area
+bruce entering BioTechnology adding page
+bruce entering BioTechnology adding page
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor role
+going back to Doctors work area
+inside doctor's lab request
+sent request to Lab
+Current Enterprise	CityHospital
+Current Organization	Lab Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.LabRole
+tony logged in
+tony has assigned the request
+status has been set to pending
+entering process request page
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+displaying results
+adding request to lab assistant
+Current Enterprise	BioDrug
+Current Organization	BioTechnology Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.BioTechnologyRole
+bruce logged in BioTechnology work area
+bruce entering lab requests page
+bruce entering nonexisting page as BioTechnology doesn't exist
+bruce entering nonexisting page as BioTechnology doesn't exist
+bruce entering nonexisting page as BioTechnology doesn't exist
+bruce entering BioTechnology adding page
+Current Enterprise	SureshMedicals
+Current Organization	Medicament Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.MedicalRole
+robert logged in
+Current Enterprise	BioDrug
+Current Organization	BioTechnology Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.BioTechnologyRole
+bruce logged in BioTechnology work area
+bruce entering lab requests page
+bruce entering lab requests page
+bruce entering BioTechnology adding page
+bruce added new BioTechnology Covid
+bruce entering add chemicals page
+bruce added chemicals and genes to BioTechnology Covid
+bruce entering lab requests page
+bruce entering nonexisting page as BioTechnology doesn't exist
+bruce entering BioTechnology adding page
+bruce entering lab requests page
+bruce assigned himself a task
+bruce entering processing page
+delivery date updated
+bruce entering lab requests page
+bruce entering BioTechnology adding page
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+sent request to Lab
+Current Enterprise	CityHospital
+Current Organization	Lab Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.LabRole
+tony logged in
+tony has assigned the request
+status has been set to pending
+entering process request page
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+displaying results
+adding request to lab assistant
+Current Enterprise	BioDrug
+Current Organization	BioTechnology Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.BioTechnologyRole
+bruce logged in BioTechnology work area
+bruce entering lab requests page
+bruce entering lab requests page
+bruce entering nonexisting page as BioTechnology doesn't exist
+bruce entering BioTechnology adding page
+bruce entering lab requests page
+bruce entering nonexisting page as BioTechnology doesn't exist
+bruce entering BioTechnology adding page
+bruce added new BioTechnology Covaxin
+bruce entering add chemicals page
+bruce added chemicals and genes to BioTechnology Covaxin
+bruce entering lab requests page
+bruce entering lab requests page
+bruce entering BioTechnology adding page
+bruce entering add chemicals page
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+Entering Main JFrame	UI.MainJFrame
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+sent request to Lab
+Current Enterprise	CityHospital
+Current Organization	Lab Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.LabRole
+tony logged in
+tony has assigned the request
+status has been set to pending
+entering process request page
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor role
+going back to Doctors work area
+inside doctor's lab request
+Current Enterprise	BioDrug
+Current Organization	BioTechnology Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.BioTechnologyRole
+bruce logged in BioTechnology work area
+bruce entering BioTechnology adding page
+bruce entering lab requests page
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+sent request to Lab
+Invalid credentials for user
+Current Enterprise	CityHospital
+Current Organization	Lab Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.LabRole
+tony logged in
+tony has assigned the request
+status has been set to pending
+entering process request page
+Current Enterprise	BioDrug
+Current Organization	BioTechnology Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.BioTechnologyRole
+bruce logged in BioTechnology work area
+bruce entering lab requests page
+bruce entering nonexisting page as BioTechnology doesn't exist
+bruce entering BioTechnology adding page
+bruce added new BioTechnology CoviShield
+bruce entering add chemicals page
+bruce added chemicals and genes to BioTechnology CoviShield
+bruce entering lab requests page
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+Current Enterprise	SureshMedicals
+Current Organization	Medicament Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.MedicalRole
+robert logged in
+Logged in User RoleHealth.Role.AdminRole
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+sent request to Lab
+Current Enterprise	CityHospital
+Current Organization	Lab Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.LabRole
+tony logged in
+tony has assigned the request
+status has been set to pending
+entering process request page
+Current Enterprise	BioDrug
+Current Organization	BioTechnology Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.BioTechnologyRole
+bruce logged in BioTechnology work area
+bruce entering lab requests page
+bruce entering nonexisting page as BioTechnology doesn't exist
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+Current Enterprise	BioDrug
+Current Organization	BioTechnology Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.BioTechnologyRole
+bruce logged in BioTechnology work area
+bruce entering BioTechnology adding page
+bruce entering lab requests page
+bruce entering nonexisting page as BioTechnology doesn't exist
+bruce entering BioTechnology adding page
+bruce added new BioTechnology COO2
+bruce entering add chemicals page
+bruce added chemicals and genes to BioTechnology COO2
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+Logged in User RoleHealth.Role.SystemAdminRole
+Entering Main JFrame	UI.MainJFrame
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+sent request to Lab
+Current Enterprise	CityHospital
+Current Organization	Lab Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.LabRole
+tony logged in
+tony has assigned the request
+status has been set to pending
+entering process request page
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+entering clinical Page
+updated patient status to Failure
+Entering Main JFrame	UI.MainJFrame
+Logged in User RoleHealth.Role.SystemAdminRole
+user creating networkUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+user creating enterpirseUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+user adding enterpirse adminsUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+sent request to Lab
+entering clinical Page
+Current Enterprise	CityHospital
+Current Organization	Lab Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.LabRole
+tony logged in
+tony has assigned the request
+status has been set to pending
+entering process request page
+Current Enterprise	BioDrug
+Current Organization	BioTechnology Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.BioTechnologyRole
+bruce logged in BioTechnology work area
+bruce entering lab requests page
+bruce entering BioTechnology adding page
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+sent request to Lab
+Current Enterprise	CityHospital
+Current Organization	Lab Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.LabRole
+tony logged in
+tony has assigned the request
+status has been set to pending
+entering process request page
+Current Enterprise	BioDrug
+Current Organization	BioTechnology Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.BioTechnologyRole
+bruce logged in BioTechnology work area
+bruce entering lab requests page
+bruce entering nonexisting page as BioTechnology doesn't exist
+bruce entering BioTechnology adding page
+bruce added new BioTechnology CoughSYrup
+bruce entering add chemicals page
+bruce added chemicals and genes to BioTechnology CoughSYrup
+bruce entering lab requests page
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+entering clinical Page
+updated patient status to Success
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin adding users 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Logged in User RoleHealth.Role.SystemAdminRole
+user adding enterpirse adminsUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin adding users 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Logged in User RoleHealth.Role.SystemAdminRole
+user adding enterpirse adminsUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin adding users 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Current Enterprise	SureshMedicals
+Current Organization	Medicament Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.MedicalRole
+robert logged in
+medicine added successfully
+robert sending request to BioTechnology Organization
+robert entering view details page
+robert viewed the BioTechnology requests
+Current Enterprise	ChemInd
+Current Organization	Chemical Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.ChemicalRole
+Current Enterprise	BioDrug
+Current Organization	BioTechnology Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.BioTechnologyRole
+bruce logged in BioTechnology work area
+bruce assigned himself a task
+bruce entering processing page
+delivery date updated
+bruce entering chemical requests page
+bruce added chemicalCarHydrogen
+chemical request has been sent to chemical organization
+bruce entering view chemical details page
+entering view chemical requests page
+Current Enterprise	ChemInd
+Current Organization	Chemical Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.ChemicalRole
+chad assigned a task to himself
+chad processes the task
+request updated successfully
+Invalid credentials for user
+Logged in User RoleHealth.Role.SystemAdminRole
+Entering Main JFrame	UI.MainJFrame
+Logged in User RoleHealth.Role.SystemAdminRole
+Entering Main JFrame	UI.MainJFrame
+Logged in User RoleHealth.Role.SystemAdminRole
+Entering Main JFrame	UI.MainJFrame
+Entering Main JFrame	UI.MainJFrame
+Logged in User RoleHealth.Role.SystemAdminRole
+user creating networkUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+user creating enterpirseUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+user adding enterpirse adminsUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+Logged in User RoleHealth.Role.SystemAdminRole
+user creating enterpirseUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+user adding enterpirse adminsUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+Entering Main JFrame	UI.MainJFrame
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+Entering Main JFrame	UI.MainJFrame
+Logged in User RoleHealth.Role.SystemAdminRole
+user creating networkUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+Sysadmin Creating NetworkUI.SystemAdminWorkArea.ManageNetworkJPanel
+Name of network Created:	Boston
+user creating enterpirseUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+name of the Enterpise is: 	Satyamname of Network in which the enterprise is: 	Boston	UI.SystemAdminWorkArea.ManageEnterpriseJPanel
+name of the Enterpise is: 	SureshMedicalsname of Network in which the enterprise is: 	Boston	UI.SystemAdminWorkArea.ManageEnterpriseJPanel
+name of the Enterpise is: 	BioDrugname of Network in which the enterprise is: 	Boston	UI.SystemAdminWorkArea.ManageEnterpriseJPanel
+name of the Enterpise is: 	ChemIndname of Network in which the enterprise is: 	Boston	UI.SystemAdminWorkArea.ManageEnterpriseJPanel
+name of the Enterpise is: 	CityHospitalname of Network in which the enterprise is: 	Boston	UI.SystemAdminWorkArea.ManageEnterpriseJPanel
+user creating enterpirseUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+user adding enterpirse adminsUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+system admin creating enterprise admin	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+name of the USER is: 	satyamname of the enterprise is: 	satyamname of network is	Boston	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+system admin creating enterprise admin	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+name of the USER is: 	hanagojivivek@gmail.comname of the enterprise is: 	vivekname of network is	Boston	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+system admin creating enterprise admin	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+name of the USER is: 	johnname of the enterprise is: 	johnname of network is	Boston	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+system admin creating enterprise admin	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+name of the USER is: 	petername of the enterprise is: 	petername of network is	Boston	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding the following OrganizationDoctor
+Enterprise admin adding the following OrganizationLab
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding following employee 	stevein following Organization 	Doctor Organization	UI.AdministrativeRole.ManageEmployeeJpanel
+Enterprise admin adding following employee 	tonyin following Organization 	Lab Organization	UI.AdministrativeRole.ManageEmployeeJpanel
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding the following Organizationmedicament
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding following employee 	brucein following Organization 	Medicament Organization	UI.AdministrativeRole.ManageEmployeeJpanel
+Enterprise admin adding users 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin creating user with name 	bruceRoleHealth.Role.MedicalRoleIn OrganizationMedicament Organization	UI.AdministrativeRole.ManageUserAccountJpanel
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding the following OrganizationBioTechnology
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding following employee 	waliin following Organization 	BioTechnology Organization	UI.AdministrativeRole.ManageEmployeeJpanel
+Enterprise admin adding users 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin creating user with name 	waliRoleHealth.Role.BioTechnologyRoleIn OrganizationBioTechnology Organization	UI.AdministrativeRole.ManageUserAccountJpanel
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding the following OrganizationChemical
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding following employee 	chadin following Organization 	Chemical Organization	UI.AdministrativeRole.ManageEmployeeJpanel
+Enterprise admin adding users 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin creating user with name 	chadRoleHealth.Role.ChemicalRoleIn OrganizationChemical Organization	UI.AdministrativeRole.ManageUserAccountJpanel
+Invalid credentials for user
+Invalid credentials for user
+Invalid credentials for user
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding users 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin creating user with name 	steveRoleHealth.Role.DoctorRoleIn OrganizationDoctor Organization	UI.AdministrativeRole.ManageUserAccountJpanel
+Enterprise admin creating user with name 	tonyRoleHealth.Role.LabRoleIn OrganizationLab Organization	UI.AdministrativeRole.ManageUserAccountJpanel
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+sent request to Lab
+Current Enterprise	CityHospital
+Current Organization	Lab Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.LabRole
+tony logged in
+tony has assigned the request
+status has been set to pending
+entering process request page
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+Current Enterprise	SureshMedicals
+Current Organization	Medicament Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.MedicalRole
+bruce logged in
+Current Enterprise	BioDrug
+Current Organization	BioTechnology Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.BioTechnologyRole
+wali logged in BioTechnology work area
+Logged in User RoleHealth.Role.AdminRole
+Current Enterprise	SureshMedicals
+Current Organization	Medicament Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.MedicalRole
+bruce logged in
+medicine added successfully
+bruce sending request to BioTechnology Organization
+Current Enterprise	BioDrug
+Current Organization	BioTechnology Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.BioTechnologyRole
+wali logged in BioTechnology work area
+wali assigned himself a task
+wali entering processing page
+delivery date updated
+wali entering chemical requests page
+wali added chemicalasdf
+wali entering lab requests page
+wali entering nonexisting page as BioTechnology doesn't exist
+wali entering BioTechnology adding page
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+Current Enterprise	CityHospital
+Current Organization	Lab Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.LabRole
+tony logged in
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request
+entering clinical Page
+updated patient status to Success
+displaying results
+adding request to lab assistant
+Current Enterprise	SureshMedicals
+Current Organization	Medicament Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.MedicalRole
+bruce logged in
+Current Enterprise	BioDrug
+Current Organization	BioTechnology Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.BioTechnologyRole
+wali logged in BioTechnology work area
+wali entering lab requests page
+wali entering nonexisting page as BioTechnology doesn't exist
+wali entering BioTechnology adding page
+wali added new BioTechnology Covidvac
+wali entering add chemicals page
+wali added chemicals and genes to BioTechnology Covidvac
+wali entering lab requests page
+wali entering chemical requests page
+chemical request has been sent to chemical organization
+Current Enterprise	ChemInd
+Current Organization	Chemical Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.ChemicalRole
+chad assigned a task to himself
+chad processes the task
+request updated successfully
+Current Enterprise	SureshMedicals
+Current Organization	Medicament Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.MedicalRole
+bruce logged in
+bruce entering view details page
+bruce viewed the BioTechnology requests
+Entering Main JFrame	UI.MainJFrame
+Current Enterprise	CityHospital
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+inside doctor's lab request

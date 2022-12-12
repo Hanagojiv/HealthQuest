@@ -73,16 +73,17 @@ public class DoctorLabTestResultsJpanel extends javax.swing.JPanel {
         patientTxtField = new javax.swing.JTextField();
         patientLbl = new javax.swing.JLabel();
         backBtn = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(153, 153, 255));
+        setBackground(new java.awt.Color(255, 255, 255));
         setPreferredSize(new java.awt.Dimension(2000, 1200));
-        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        setLayout(null);
 
-        LabTestLbl.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 48)); // NOI18N
+        LabTestLbl.setFont(new java.awt.Font("Times New Roman", 3, 48)); // NOI18N
         LabTestLbl.setForeground(new java.awt.Color(0, 0, 102));
         LabTestLbl.setText(" LAB TEST RESULTS");
-        add(LabTestLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 30, 490, 52));
+        add(LabTestLbl);
+        LabTestLbl.setBounds(230, 30, 490, 52);
 
         refreshBtn.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
         refreshBtn.setForeground(new java.awt.Color(0, 0, 102));
@@ -92,7 +93,8 @@ public class DoctorLabTestResultsJpanel extends javax.swing.JPanel {
                 refreshBtnActionPerformed(evt);
             }
         });
-        add(refreshBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 660, 157, -1));
+        add(refreshBtn);
+        refreshBtn.setBounds(680, 520, 157, 36);
 
         geneTbl.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 0, 20)); // NOI18N
         geneTbl.setModel(new javax.swing.table.DefaultTableModel(
@@ -122,15 +124,18 @@ public class DoctorLabTestResultsJpanel extends javax.swing.JPanel {
         geneTbl.setRowHeight(22);
         jScrollPane.setViewportView(geneTbl);
 
-        add(jScrollPane, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 260, -1, 200));
+        add(jScrollPane);
+        jScrollPane.setBounds(350, 260, 452, 200);
 
         patientTxtField.setEditable(false);
-        add(patientTxtField, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 190, 200, 30));
+        add(patientTxtField);
+        patientTxtField.setBounds(580, 190, 200, 30);
 
-        patientLbl.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 1, 24)); // NOI18N
+        patientLbl.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         patientLbl.setForeground(new java.awt.Color(0, 0, 102));
         patientLbl.setText("Patient Name :");
-        add(patientLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 190, 180, 30));
+        add(patientLbl);
+        patientLbl.setBounds(370, 190, 180, 30);
 
         backBtn.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 0, 24)); // NOI18N
         backBtn.setForeground(new java.awt.Color(0, 0, 102));
@@ -140,10 +145,13 @@ public class DoctorLabTestResultsJpanel extends javax.swing.JPanel {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 670, 170, -1));
+        add(backBtn);
+        backBtn.setBounds(250, 510, 170, 36);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/DrugLabResults.jpg"))); // NOI18N
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 10, -1, -1));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/doc16.jpg"))); // NOI18N
+        jLabel2.setText("jLabel2");
+        add(jLabel2);
+        jLabel2.setBounds(0, 0, 1220, 870);
     }// </editor-fold>//GEN-END:initComponents
 
     private void refreshBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_refreshBtnActionPerformed
@@ -167,7 +175,7 @@ public class DoctorLabTestResultsJpanel extends javax.swing.JPanel {
     private javax.swing.JLabel LabTestLbl;
     private javax.swing.JButton backBtn;
     private javax.swing.JTable geneTbl;
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JScrollPane jScrollPane;
     private javax.swing.JLabel patientLbl;
     private javax.swing.JTextField patientTxtField;

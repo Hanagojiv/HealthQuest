@@ -65,7 +65,7 @@ public class LabAssistantWorkAreaJPanel extends javax.swing.JPanel {
             row[4] = request.getSender().getEmployee().getName();
             row[5] = request.getReceiver() == null ? null : request.getReceiver().getEmployee().getName();
             row[6] = request.getStatus();
-            row[7] = ((LabTestWorkRequest) request).getPatient().getNewBioTechnology();
+//            row[7] = ((LabTestWorkRequest) request).getPatient().getNewBioTechnology();
             model.addRow(row);
         }
 
@@ -88,8 +88,8 @@ public class LabAssistantWorkAreaJPanel extends javax.swing.JPanel {
         LabLbl = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(103, 118, 148));
-        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        setBackground(new java.awt.Color(255, 255, 255));
+        setLayout(null);
 
         workRequestJTable.setFont(new java.awt.Font("Microsoft JhengHei Light", 0, 20)); // NOI18N
         workRequestJTable.setModel(new javax.swing.table.DefaultTableModel(
@@ -97,14 +97,14 @@ public class LabAssistantWorkAreaJPanel extends javax.swing.JPanel {
 
             },
             new String [] {
-                "Patient Name", "Age", "Sex", "Message", "Sender", "Receiver", "Status", "New Drug"
+                "Patient Name", "Age", "Sex", "Message", "Sender", "Receiver", "Status"
             }
         ) {
             Class[] types = new Class [] {
-                java.lang.Object.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
+                java.lang.Object.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
             };
             boolean[] canEdit = new boolean [] {
-                false, false, false, false, false, false, false, true
+                false, false, false, false, false, false, false
             };
 
             public Class getColumnClass(int columnIndex) {
@@ -118,9 +118,10 @@ public class LabAssistantWorkAreaJPanel extends javax.swing.JPanel {
         workRequestJTable.setRowHeight(30);
         jScrollPane.setViewportView(workRequestJTable);
 
-        add(jScrollPane, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 170, 1130, 300));
+        add(jScrollPane);
+        jScrollPane.setBounds(40, 170, 1090, 190);
 
-        assignBtn.setFont(new java.awt.Font("Microsoft JhengHei UI", 0, 24)); // NOI18N
+        assignBtn.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         assignBtn.setForeground(new java.awt.Color(0, 0, 102));
         assignBtn.setText("Assign to me");
         assignBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -128,9 +129,10 @@ public class LabAssistantWorkAreaJPanel extends javax.swing.JPanel {
                 assignBtnActionPerformed(evt);
             }
         });
-        add(assignBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 510, -1, -1));
+        add(assignBtn);
+        assignBtn.setBounds(160, 380, 157, 35);
 
-        processBtn.setFont(new java.awt.Font("Microsoft JhengHei UI", 0, 24)); // NOI18N
+        processBtn.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         processBtn.setForeground(new java.awt.Color(0, 0, 102));
         processBtn.setText("Process");
         processBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -138,9 +140,10 @@ public class LabAssistantWorkAreaJPanel extends javax.swing.JPanel {
                 processBtnActionPerformed(evt);
             }
         });
-        add(processBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(1080, 510, -1, -1));
+        add(processBtn);
+        processBtn.setBounds(800, 390, 106, 35);
 
-        refreshJButton.setFont(new java.awt.Font("Microsoft JhengHei Light", 1, 24)); // NOI18N
+        refreshJButton.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         refreshJButton.setForeground(new java.awt.Color(0, 0, 102));
         refreshJButton.setText("Refresh");
         refreshJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -148,14 +151,18 @@ public class LabAssistantWorkAreaJPanel extends javax.swing.JPanel {
                 refreshJButtonActionPerformed(evt);
             }
         });
-        add(refreshJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 510, -1, -1));
+        add(refreshJButton);
+        refreshJButton.setBounds(500, 390, 107, 35);
 
-        LabLbl.setFont(new java.awt.Font("Microsoft JhengHei UI", 1, 48)); // NOI18N
+        LabLbl.setFont(new java.awt.Font("Times New Roman", 3, 48)); // NOI18N
         LabLbl.setText("Lab Work Area");
-        add(LabLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 40, 350, -1));
+        add(LabLbl);
+        LabLbl.setBounds(480, 40, 380, 56);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/LabWork.jpg"))); // NOI18N
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 10, 250, 150));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/doc20.jpg"))); // NOI18N
+        jLabel1.setText("jLabel1");
+        add(jLabel1);
+        jLabel1.setBounds(0, -10, 2010, 1240);
     }// </editor-fold>//GEN-END:initComponents
 
     private void assignBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_assignBtnActionPerformed

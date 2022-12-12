@@ -70,11 +70,11 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
         doctorLbl = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(153, 153, 255));
+        setBackground(new java.awt.Color(255, 255, 255));
         setPreferredSize(new java.awt.Dimension(2000, 1200));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        PrecriptionBtn.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 24)); // NOI18N
+        PrecriptionBtn.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         PrecriptionBtn.setForeground(new java.awt.Color(0, 0, 102));
         PrecriptionBtn.setText("WRITE PRESCRIPTION");
         PrecriptionBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -84,7 +84,7 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
         });
         add(PrecriptionBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(271, 147, 497, 83));
 
-        labTestBtn.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 24)); // NOI18N
+        labTestBtn.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         labTestBtn.setForeground(new java.awt.Color(0, 0, 102));
         labTestBtn.setText("Lab Test");
         labTestBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -92,18 +92,18 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
                 labTestBtnActionPerformed(evt);
             }
         });
-        add(labTestBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(271, 403, 497, 100));
+        add(labTestBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 320, 497, 100));
 
         doctorLbl.setBackground(new java.awt.Color(0, 204, 204));
-        doctorLbl.setFont(new java.awt.Font("Microsoft JhengHei UI", 1, 48)); // NOI18N
+        doctorLbl.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         doctorLbl.setForeground(new java.awt.Color(0, 0, 102));
         doctorLbl.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         doctorLbl.setText("DOCTOR WORK AREA ");
-        add(doctorLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(248, 49, -1, 67));
+        add(doctorLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 50, -1, 67));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/Doctor.jpg"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/doc18.jpg"))); // NOI18N
         jLabel1.setText("jLabel1");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 40, 560, 660));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -50, 2200, 1470));
     }// </editor-fold>//GEN-END:initComponents
 
     private void PrecriptionBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PrecriptionBtnActionPerformed

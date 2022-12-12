@@ -89,12 +89,11 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         jSplitPane = new javax.swing.JSplitPane();
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        lblSelectedNode = new javax.swing.JLabel();
         btnManageNetwork = new javax.swing.JButton();
         btnManageEnterprise = new javax.swing.JButton();
         btnManageAdmin = new javax.swing.JButton();
         viewReportsBtn = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
         setLayout(new java.awt.BorderLayout());
 
@@ -104,11 +103,11 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 92, Short.MAX_VALUE)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 599, Short.MAX_VALUE)
+            .addGap(0, 990, Short.MAX_VALUE)
         );
 
         jSplitPane.setLeftComponent(jPanel1);
@@ -116,19 +115,9 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         jPanel2.setBackground(new java.awt.Color(52, 148, 172));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 102));
-        jLabel1.setText("Selected Node:");
-        jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(37, 25, -1, -1));
-
-        lblSelectedNode.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 1, 24)); // NOI18N
-        lblSelectedNode.setForeground(new java.awt.Color(0, 0, 102));
-        lblSelectedNode.setText("<View_selected_node>");
-        jPanel2.add(lblSelectedNode, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 20, -1, -1));
-
         btnManageNetwork.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 1, 24)); // NOI18N
         btnManageNetwork.setForeground(new java.awt.Color(0, 0, 102));
-        btnManageNetwork.setText("Manage Network");
+        btnManageNetwork.setText("Manage Locations");
         btnManageNetwork.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnManageNetworkActionPerformed(evt);
@@ -158,13 +147,17 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
 
         viewReportsBtn.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 1, 24)); // NOI18N
         viewReportsBtn.setForeground(new java.awt.Color(0, 0, 102));
-        viewReportsBtn.setText("View Reports");
+        viewReportsBtn.setText("Visualization Analysis");
         viewReportsBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 viewReportsBtnActionPerformed(evt);
             }
         });
         jPanel2.add(viewReportsBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 240, 390, 40));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/First.jpg"))); // NOI18N
+        jLabel1.setText("jLabel1");
+        jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-170, -20, 1170, 980));
 
         jSplitPane.setRightComponent(jPanel2);
 
@@ -233,7 +226,6 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JSplitPane jSplitPane;
-    private javax.swing.JLabel lblSelectedNode;
     private javax.swing.JButton viewReportsBtn;
     // End of variables declaration//GEN-END:variables
 }

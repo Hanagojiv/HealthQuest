@@ -1,26 +1,19 @@
 # AEDFinalProject
-#FirstCommit
+# AEDFinalProject
+A Java swing program called HealthQuest eco-system integrates data from all facets of the healthcare value chain, from chemical compounds through patient care and recovery, to do analytics on the data. The HealthQuest eco-system keeps statistical records of a chemical compound that is active and effective at attacking a certain gene in a disease and offers a chemical compound to test its efficacy against other diseases that have the same gene. We think that implementing a universally accepted global data standard and modernizing the healthcare value system would help the HealthQuest ecosystem to further enhance patient care.
 
-#### From Feature_02 to main
 
-Project Information
+### Approach
+To assist HealthQuest in integrating data from various healthcare system sources.to give global biotechnology companies like HealthQuest a shared platform on which to concentrate on the discovery and marketing of novel pharmaceuticals for the treatment of disease in patients receiving healthcare anywhere in the world.
 
-1. Covid-Variant The COVID healthcare systems and categories' entire range of data sources are analyzed using Ecosystem, a Java Swing application. Patients that have COVID according to the type of variation they carry 2. By updating the database with the list of medications that can treat a patient with a specific variant, this system also keeps track of the medications administered to COVID patients who have that variant.
-3. This system assists in sending molecules and compounds that target specific COVID variants, such as alpha, to research labs for more investigation. It also preserves statistical data on all active substances that are successful in doing so.
-4. If a patient is found to have a COVID variant that is already known to exist in the database, the patient is given a specific regimen of medications that are effective in curing that COVID variant.
-5. If a patient is found to have a variant that isn't listed in the records, the variant is handled as a new one, and medications that work against it are put through clinical trials in a lab.
-Business Strategy: 1. COVID-Variant aggregates COVID-related data from several COVID healthcare system firms to aid in the development of vaccines and medications to treat a specific Variant.
-2. To concentrate on the development, production, and marketing of novel drugs and vaccines for the treatment of a new COVID Variant in COVID-affected individuals worldwide.
-3. The vaccine industry maintains track of new COVID variants and how they target certain molecules that aid in the production of antibodies for a particular variant. By combining existing variants in this way, a vaccine maker can produce a new vaccine without experiencing any delays in the future when a new COVID variant is identified.
+The drug industry keeps track of the gene and the chemical molecule that it is targeting. In order to prevent any delays in the production of a new drug, a drug maker can do this in the future when a new disease is caused by the combination of existing genes.
 
-Conclusion
+### Future Scope
+The application concentrates on doing analysis on data that HealthQuest owns in all phases of the healthcare value chain, from chemical compounds to patient treatment and recovery.
 
-1. This study found that enhancing COVID's healthcare value system and implementing a specific global data gathering standard will help the Covid-Variant eco-system significantly improve patient care.
-2. By using the covid-variant Ecosystem strategy, millions of patients across the nation can receive healthcare that is both efficient and affordable.
 
-3. Inventory management across numerous businesses makes it possible to supply immunizations and medications to COVID patients more quickly.
-4. It will also make it easier for us to monitor patients who have novel variants.
+PROCUREMENT- offering a method for order tracking information sharing and collaboration send the details related to the illness from the hospital to the lab and lab to the BioTechnology from there to Chemical Industry.
 
-USE CASE DIAGRAM:
-<img src="src/images/classDiagram.png" alt="Desktop">
+RELATED TO THE DISEASE FROM THE HOSPITAL TO THE LAB AND LAB TO THE DRUG COMPANY FROM THERE TO CHEMICAL ENTERPRISE.
 
+PATIENT PARTICIPATION IN CLINICAL TRIAL.

@@ -97,36 +97,41 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
         prescriptionJTable = new javax.swing.JTable();
         dateLbl = new javax.swing.JLabel();
         backBtn = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
         medicationCombobox = new javax.swing.JComboBox<>();
         DateChooser = new com.toedter.calendar.JDateChooser();
+        jLabel1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(153, 153, 255));
+        setBackground(new java.awt.Color(255, 255, 255));
         setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 48)); // NOI18N
         setPreferredSize(new java.awt.Dimension(2000, 1200));
-        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        setLayout(null);
 
-        doctorPrescriptionLbl.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 48)); // NOI18N
-        doctorPrescriptionLbl.setForeground(new java.awt.Color(0, 0, 102));
+        doctorPrescriptionLbl.setFont(new java.awt.Font("Times New Roman", 3, 48)); // NOI18N
         doctorPrescriptionLbl.setText("Doctor Prescription");
-        add(doctorPrescriptionLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 20, -1, -1));
+        add(doctorPrescriptionLbl);
+        doctorPrescriptionLbl.setBounds(300, 20, 390, 56);
 
-        nameLbl.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
+        nameLbl.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         nameLbl.setForeground(new java.awt.Color(0, 0, 102));
         nameLbl.setText("Name:");
-        add(nameLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 110, -1, -1));
-        add(nameTxtField, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 120, 287, -1));
+        add(nameLbl);
+        nameLbl.setBounds(190, 110, 67, 29);
+        add(nameTxtField);
+        nameTxtField.setBounds(340, 120, 287, 23);
 
-        ageLbl.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
+        ageLbl.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         ageLbl.setForeground(new java.awt.Color(0, 0, 102));
         ageLbl.setText("Age:");
-        add(ageLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 170, -1, -1));
-        add(ageTxtField, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 180, 287, -1));
+        add(ageLbl);
+        ageLbl.setBounds(210, 170, 47, 29);
+        add(ageTxtField);
+        ageTxtField.setBounds(340, 180, 287, 23);
 
-        sexLbl.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
+        sexLbl.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         sexLbl.setForeground(new java.awt.Color(0, 0, 102));
         sexLbl.setText("Sex:");
-        add(sexLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 230, -1, -1));
+        add(sexLbl);
+        sexLbl.setBounds(220, 230, 44, 29);
 
         sexcomboBox.setFont(new java.awt.Font("Microsoft JhengHei UI", 0, 18)); // NOI18N
         sexcomboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "--Please select--", "Male", "Female" }));
@@ -135,17 +140,20 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
                 sexcomboBoxActionPerformed(evt);
             }
         });
-        add(sexcomboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 240, 287, -1));
+        add(sexcomboBox);
+        sexcomboBox.setBounds(340, 240, 287, 28);
 
-        diagnosisLbl.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
+        diagnosisLbl.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         diagnosisLbl.setForeground(new java.awt.Color(0, 0, 102));
         diagnosisLbl.setText("Diagnosis:");
-        add(diagnosisLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 300, -1, -1));
+        add(diagnosisLbl);
+        diagnosisLbl.setBounds(150, 300, 106, 29);
 
-        medicationLbl.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
+        medicationLbl.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         medicationLbl.setForeground(new java.awt.Color(0, 0, 102));
         medicationLbl.setText("Medication:");
-        add(medicationLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(112, 424, -1, -1));
+        add(medicationLbl);
+        medicationLbl.setBounds(112, 424, 121, 29);
 
         diagnosisComboBox.setFont(new java.awt.Font("Microsoft YaHei Light", 1, 18)); // NOI18N
         diagnosisComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "--Please select--", "Achondroplasia", "Marfansyndrome", "Cysticfibrosis", "TaySachs", "Haemophilia", "Mosaicism", "Downsyndrome", "Turnersyndrome" }));
@@ -154,17 +162,20 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
                 diagnosisComboBoxActionPerformed(evt);
             }
         });
-        add(diagnosisComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 300, 287, 30));
+        add(diagnosisComboBox);
+        diagnosisComboBox.setBounds(340, 300, 287, 30);
 
-        timesADayLbl.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
+        timesADayLbl.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         timesADayLbl.setForeground(new java.awt.Color(0, 0, 102));
         timesADayLbl.setText("Times a Day:");
-        add(timesADayLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(588, 424, -1, -1));
+        add(timesADayLbl);
+        timesADayLbl.setBounds(588, 424, 133, 29);
 
-        forLbl.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
+        forLbl.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         forLbl.setForeground(new java.awt.Color(0, 0, 102));
         forLbl.setText("For:");
-        add(forLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(966, 424, -1, -1));
+        add(forLbl);
+        forLbl.setBounds(670, 480, 45, 29);
 
         savePrescriptionBtn.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 0, 24)); // NOI18N
         savePrescriptionBtn.setForeground(new java.awt.Color(0, 0, 102));
@@ -174,13 +185,16 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
                 savePrescriptionBtnActionPerformed(evt);
             }
         });
-        add(savePrescriptionBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 500, -1, 40));
+        add(savePrescriptionBtn);
+        savePrescriptionBtn.setBounds(330, 500, 270, 40);
 
         noofTimesTxt.setModel(new javax.swing.SpinnerNumberModel(0, 0, null, 1));
-        add(noofTimesTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(755, 429, 170, 31));
+        add(noofTimesTxt);
+        noofTimesTxt.setBounds(755, 429, 170, 31);
 
         noofDaysTxt.setModel(new javax.swing.SpinnerNumberModel(0, 0, null, 1));
-        add(noofDaysTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 429, 171, 30));
+        add(noofDaysTxt);
+        noofDaysTxt.setBounds(750, 480, 171, 30);
 
         prescriptionJTable.setFont(new java.awt.Font("Microsoft JhengHei Light", 0, 20)); // NOI18N
         prescriptionJTable.setModel(new javax.swing.table.DefaultTableModel(
@@ -202,14 +216,16 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
         prescriptionJTable.setRowHeight(25);
         scrollPane2.setViewportView(prescriptionJTable);
 
-        add(scrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 560, 818, 173));
+        add(scrollPane2);
+        scrollPane2.setBounds(130, 560, 818, 173);
 
-        dateLbl.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
+        dateLbl.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         dateLbl.setForeground(new java.awt.Color(0, 0, 102));
         dateLbl.setText("Date: ");
-        add(dateLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 170, 79, -1));
+        add(dateLbl);
+        dateLbl.setBounds(200, 360, 79, 29);
 
-        backBtn.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 0, 24)); // NOI18N
+        backBtn.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         backBtn.setForeground(new java.awt.Color(0, 0, 102));
         backBtn.setText("BACK");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -217,10 +233,8 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 748, -1, -1));
-
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/DoctorPrescription.jpg"))); // NOI18N
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 0, 140, 130));
+        add(backBtn);
+        backBtn.setBounds(70, 750, 94, 35);
 
         medicationCombobox.setFont(new java.awt.Font("Microsoft YaHei Light", 1, 18)); // NOI18N
         medicationCombobox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "--Please select--", "Galafold", "Onpattro", "Revcovi", "Tegsedi", "Haegarda", "Brineura", "Mepsevii", "Spinraza" }));
@@ -229,8 +243,15 @@ public class PrescriptionJPanel extends javax.swing.JPanel {
                 medicationComboboxActionPerformed(evt);
             }
         });
-        add(medicationCombobox, new org.netbeans.lib.awtextra.AbsoluteConstraints(266, 426, 287, -1));
-        add(DateChooser, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 170, -1, -1));
+        add(medicationCombobox);
+        medicationCombobox.setBounds(266, 426, 287, 28);
+        add(DateChooser);
+        DateChooser.setBounds(340, 360, 93, 23);
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/DocPres.jpg"))); // NOI18N
+        jLabel1.setText("jLabel1");
+        add(jLabel1);
+        jLabel1.setBounds(0, 0, 1320, 830);
     }// </editor-fold>//GEN-END:initComponents
 
     private void savePrescriptionBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_savePrescriptionBtnActionPerformed
