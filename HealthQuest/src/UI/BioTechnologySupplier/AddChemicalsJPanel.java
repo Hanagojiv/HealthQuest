@@ -99,10 +99,10 @@ public class AddChemicalsJPanel extends javax.swing.JPanel {
         addBtn = new javax.swing.JButton();
         backBtn = new javax.swing.JButton();
         processlbl = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(204, 204, 255));
-        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        setLayout(null);
 
         chemicalGeneTbl.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 0, 20)); // NOI18N
         chemicalGeneTbl.setModel(new javax.swing.table.DefaultTableModel(
@@ -133,7 +133,8 @@ public class AddChemicalsJPanel extends javax.swing.JPanel {
         chemicalGeneTbl.getTableHeader().setReorderingAllowed(false);
         jScrollPane1.setViewportView(chemicalGeneTbl);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(169, 139, 630, 150));
+        add(jScrollPane1);
+        jScrollPane1.setBounds(169, 139, 630, 150);
 
         chemicalTxt.setFont(new java.awt.Font("Microsoft JhengHei Light", 0, 20)); // NOI18N
         chemicalTxt.addActionListener(new java.awt.event.ActionListener() {
@@ -141,20 +142,24 @@ public class AddChemicalsJPanel extends javax.swing.JPanel {
                 chemicalTxtActionPerformed(evt);
             }
         });
-        add(chemicalTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(471, 357, 200, -1));
+        add(chemicalTxt);
+        chemicalTxt.setBounds(471, 357, 200, 31);
 
         GeneTextField.setFont(new java.awt.Font("Microsoft JhengHei Light", 0, 20)); // NOI18N
-        add(GeneTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(471, 423, 200, -1));
+        add(GeneTextField);
+        GeneTextField.setBounds(470, 410, 200, 31);
 
-        chemicalLabel.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 1, 20)); // NOI18N
-        chemicalLabel.setForeground(new java.awt.Color(0, 0, 102));
+        chemicalLabel.setFont(new java.awt.Font("Times New Roman", 3, 20)); // NOI18N
+        chemicalLabel.setForeground(new java.awt.Color(255, 255, 255));
         chemicalLabel.setText("ChemicalName");
-        add(chemicalLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(266, 361, -1, -1));
+        add(chemicalLabel);
+        chemicalLabel.setBounds(266, 361, 129, 24);
 
-        geneLabel.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 1, 20)); // NOI18N
-        geneLabel.setForeground(new java.awt.Color(0, 0, 102));
+        geneLabel.setFont(new java.awt.Font("Times New Roman", 3, 20)); // NOI18N
+        geneLabel.setForeground(new java.awt.Color(255, 255, 255));
         geneLabel.setText("GeneName");
-        add(geneLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(266, 427, 150, -1));
+        add(geneLabel);
+        geneLabel.setBounds(270, 410, 150, 24);
 
         addBtn.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 1, 24)); // NOI18N
         addBtn.setForeground(new java.awt.Color(0, 0, 102));
@@ -164,7 +169,8 @@ public class AddChemicalsJPanel extends javax.swing.JPanel {
                 addBtnActionPerformed(evt);
             }
         });
-        add(addBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(508, 524, 110, -1));
+        add(addBtn);
+        addBtn.setBounds(690, 530, 110, 36);
 
         backBtn.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 1, 24)); // NOI18N
         backBtn.setForeground(new java.awt.Color(0, 0, 102));
@@ -174,15 +180,19 @@ public class AddChemicalsJPanel extends javax.swing.JPanel {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(137, 524, -1, -1));
+        add(backBtn);
+        backBtn.setBounds(170, 520, 95, 36);
 
-        processlbl.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 48)); // NOI18N
-        processlbl.setForeground(new java.awt.Color(0, 0, 102));
+        processlbl.setFont(new java.awt.Font("Times New Roman", 3, 48)); // NOI18N
+        processlbl.setForeground(new java.awt.Color(255, 255, 255));
         processlbl.setText("Chemical and Gene Names");
-        add(processlbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 60, -1, 53));
+        add(processlbl);
+        processlbl.setBounds(150, 60, 539, 53);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/Gene.jpg"))); // NOI18N
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 40, -1, 90));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/BioTechnologySupplier/chem.jpg"))); // NOI18N
+        jLabel2.setText("jLabel2");
+        add(jLabel2);
+        jLabel2.setBounds(0, 0, 960, 780);
     }// </editor-fold>//GEN-END:initComponents
 
     private void chemicalTxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chemicalTxtActionPerformed
@@ -254,7 +264,7 @@ public class AddChemicalsJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel chemicalLabel;
     private javax.swing.JTextField chemicalTxt;
     private javax.swing.JLabel geneLabel;
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel processlbl;
     // End of variables declaration//GEN-END:variables

@@ -54,62 +54,66 @@ public class AdminWorkAreaJpanel extends javax.swing.JPanel {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(23, 107, 163));
         setLayout(null);
 
         jLabel3.setFont(new java.awt.Font("Times New Roman", 3, 48)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Administrative Work Place");
         add(jLabel3);
-        jLabel3.setBounds(350, 130, 531, 56);
+        jLabel3.setBounds(250, 150, 531, 56);
 
         valuelbl.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        valuelbl.setForeground(new java.awt.Color(0, 0, 102));
+        valuelbl.setForeground(new java.awt.Color(255, 255, 255));
         valuelbl.setText("<value>");
         add(valuelbl);
-        valuelbl.setBounds(690, 210, 130, 30);
+        valuelbl.setBounds(530, 220, 130, 30);
 
         manageEmployeebtn.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         manageEmployeebtn.setText("Manage Employee");
+        manageEmployeebtn.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(0, 153, 255)));
         manageEmployeebtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 manageEmployeebtnActionPerformed(evt);
             }
         });
         add(manageEmployeebtn);
-        manageEmployeebtn.setBounds(510, 460, 320, 70);
+        manageEmployeebtn.setBounds(350, 370, 320, 70);
 
         enterpriseLabel1.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
-        enterpriseLabel1.setForeground(new java.awt.Color(0, 0, 102));
+        enterpriseLabel1.setForeground(new java.awt.Color(255, 255, 255));
         enterpriseLabel1.setText("Enterprise :");
         add(enterpriseLabel1);
-        enterpriseLabel1.setBounds(470, 210, 150, 30);
+        enterpriseLabel1.setBounds(370, 220, 150, 30);
 
         userbtn.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         userbtn.setText("Manage User");
+        userbtn.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(0, 102, 204)));
         userbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 userbtnActionPerformed(evt);
             }
         });
         add(userbtn);
-        userbtn.setBounds(500, 610, 320, 70);
+        userbtn.setBounds(350, 470, 320, 70);
 
         manageOrganizationbtn.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         manageOrganizationbtn.setText("Manage Organization");
+        manageOrganizationbtn.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(0, 153, 255)));
         manageOrganizationbtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 manageOrganizationbtnActionPerformed(evt);
             }
         });
         add(manageOrganizationbtn);
-        manageOrganizationbtn.setBounds(500, 300, 320, 70);
+        manageOrganizationbtn.setBounds(350, 280, 320, 70);
         add(jLabel1);
         jLabel1.setBounds(130, -30, 0, 0);
 
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/administrativework.jpg"))); // NOI18N
         jLabel2.setText("jLabel2");
         add(jLabel2);
-        jLabel2.setBounds(0, 0, 42, 17);
+        jLabel2.setBounds(0, 0, 1020, 790);
     }// </editor-fold>//GEN-END:initComponents
 
     private void manageOrganizationbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_manageOrganizationbtnActionPerformed

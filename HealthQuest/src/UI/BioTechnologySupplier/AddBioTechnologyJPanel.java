@@ -85,10 +85,10 @@ public class AddBioTechnologyJPanel extends javax.swing.JPanel {
         addChemicalButton = new javax.swing.JButton();
         backButton = new javax.swing.JButton();
         processlbl = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(204, 204, 255));
-        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        setLayout(null);
 
         BioTechnologyTble.setFont(new java.awt.Font("Microsoft JhengHei Light", 0, 20)); // NOI18N
         BioTechnologyTble.setModel(new javax.swing.table.DefaultTableModel(
@@ -117,7 +117,8 @@ public class AddBioTechnologyJPanel extends javax.swing.JPanel {
         BioTechnologyTble.setRowHeight(30);
         jScrollPane1.setViewportView(BioTechnologyTble);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(176, 141, 720, 270));
+        add(jScrollPane1);
+        jScrollPane1.setBounds(190, 100, 720, 270);
 
         BioTechnologytxtField.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 1, 20)); // NOI18N
         BioTechnologytxtField.setForeground(new java.awt.Color(0, 0, 102));
@@ -126,7 +127,8 @@ public class AddBioTechnologyJPanel extends javax.swing.JPanel {
                 BioTechnologytxtFieldActionPerformed(evt);
             }
         });
-        add(BioTechnologytxtField, new org.netbeans.lib.awtextra.AbsoluteConstraints(396, 431, 230, 40));
+        add(BioTechnologytxtField);
+        BioTechnologytxtField.setBounds(400, 400, 230, 40);
 
         addBioTechnologyBtn.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 1, 20)); // NOI18N
         addBioTechnologyBtn.setForeground(new java.awt.Color(0, 0, 102));
@@ -136,12 +138,13 @@ public class AddBioTechnologyJPanel extends javax.swing.JPanel {
                 addBioTechnologyBtnActionPerformed(evt);
             }
         });
-        add(addBioTechnologyBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(643, 431, 180, -1));
+        add(addBioTechnologyBtn);
+        addBioTechnologyBtn.setBounds(690, 410, 180, 31);
 
-        jLabel3.setFont(new java.awt.Font("Microsoft JhengHei UI", 1, 20)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel3.setFont(new java.awt.Font("Times New Roman", 3, 20)); // NOI18N
         jLabel3.setText("DRUG");
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(273, 431, 123, 40));
+        add(jLabel3);
+        jLabel3.setBounds(260, 400, 123, 40);
 
         addChemicalButton.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 1, 20)); // NOI18N
         addChemicalButton.setForeground(new java.awt.Color(0, 0, 102));
@@ -151,7 +154,8 @@ public class AddBioTechnologyJPanel extends javax.swing.JPanel {
                 addChemicalButtonActionPerformed(evt);
             }
         });
-        add(addChemicalButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 550, -1, -1));
+        add(addChemicalButton);
+        addChemicalButton.setBounds(720, 490, 173, 31);
 
         backButton.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 1, 20)); // NOI18N
         backButton.setForeground(new java.awt.Color(0, 0, 102));
@@ -161,15 +165,18 @@ public class AddBioTechnologyJPanel extends javax.swing.JPanel {
                 backButtonActionPerformed(evt);
             }
         });
-        add(backButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 560, -1, -1));
+        add(backButton);
+        backButton.setBounds(200, 490, 86, 31);
 
-        processlbl.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 48)); // NOI18N
-        processlbl.setForeground(new java.awt.Color(0, 0, 102));
+        processlbl.setFont(new java.awt.Font("Times New Roman", 3, 48)); // NOI18N
         processlbl.setText("Drug Panel");
-        add(processlbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 40, 300, 70));
+        add(processlbl);
+        processlbl.setBounds(420, 10, 300, 70);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/Drug.jpg"))); // NOI18N
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 20, -1, -1));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/BioTechnologySupplier/1503528.jpg"))); // NOI18N
+        jLabel2.setText("jLabel2");
+        add(jLabel2);
+        jLabel2.setBounds(0, 0, 1100, 650);
     }// </editor-fold>//GEN-END:initComponents
 
     private void BioTechnologytxtFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BioTechnologytxtFieldActionPerformed
@@ -233,7 +240,7 @@ public class AddBioTechnologyJPanel extends javax.swing.JPanel {
     private javax.swing.JButton addBioTechnologyBtn;
     private javax.swing.JButton addChemicalButton;
     private javax.swing.JButton backButton;
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel processlbl;

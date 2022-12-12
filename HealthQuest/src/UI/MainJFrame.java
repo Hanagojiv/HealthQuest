@@ -111,7 +111,7 @@ public class MainJFrame extends javax.swing.JFrame {
         jPanel1.add(logoutBtn);
         logoutBtn.setBounds(32, 569, 210, 40);
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/Login02.jpg"))); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Login01.jpg"))); // NOI18N
         jLabel4.setText("jLabel4");
         jPanel1.add(jLabel4);
         jLabel4.setBounds(0, 0, 300, 930);
@@ -128,7 +128,7 @@ public class MainJFrame extends javax.swing.JFrame {
 
         jSplitPane1.setLeftComponent(jPanel1);
 
-        container.setBackground(new java.awt.Color(255, 51, 204));
+        container.setBackground(new java.awt.Color(0, 153, 255));
         container.setLayout(new java.awt.CardLayout());
         jSplitPane1.setRightComponent(container);
 

@@ -56,19 +56,21 @@ public class ManageEmployeeJpanel extends javax.swing.JPanel {
         jLabel2 = new javax.swing.JLabel();
         backJButton = new javax.swing.JButton();
         addJButton = new javax.swing.JButton();
+        jLabel8 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(52, 148, 172));
-        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        setLayout(null);
 
-        jLabel4.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 48)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Times New Roman", 3, 48)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(0, 0, 102));
         jLabel4.setText("Manage Employee");
-        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(296, 40, 470, -1));
+        add(jLabel4);
+        jLabel4.setBounds(480, 40, 380, 50);
 
-        orglbl.setFont(new java.awt.Font("Microsoft YaHei Light", 1, 24)); // NOI18N
-        orglbl.setForeground(new java.awt.Color(0, 0, 102));
+        orglbl.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         orglbl.setText("Organization:");
-        add(orglbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(296, 133, -1, -1));
+        add(orglbl);
+        orglbl.setBounds(380, 260, 138, 29);
 
         organizationComboBox.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 0, 20)); // NOI18N
         organizationComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
@@ -77,7 +79,8 @@ public class ManageEmployeeJpanel extends javax.swing.JPanel {
                 organizationComboBoxActionPerformed(evt);
             }
         });
-        add(organizationComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(549, 137, 270, 32));
+        add(organizationComboBox);
+        organizationComboBox.setBounds(560, 260, 270, 32);
 
         organizationTbl.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 0, 20)); // NOI18N
         organizationTbl.setModel(new javax.swing.table.DefaultTableModel(
@@ -108,12 +111,13 @@ public class ManageEmployeeJpanel extends javax.swing.JPanel {
         organizationTbl.getTableHeader().setReorderingAllowed(false);
         jScrollPane1.setViewportView(organizationTbl);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(275, 242, 547, 165));
+        add(jScrollPane1);
+        jScrollPane1.setBounds(350, 310, 547, 165);
 
-        jLabel3.setFont(new java.awt.Font("Microsoft YaHei Light", 1, 24)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel3.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         jLabel3.setText("Organization:");
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(354, 490, -1, -1));
+        add(jLabel3);
+        jLabel3.setBounds(420, 480, 138, 29);
 
         organizationEmpComboBox.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 0, 20)); // NOI18N
         organizationEmpComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
@@ -122,15 +126,17 @@ public class ManageEmployeeJpanel extends javax.swing.JPanel {
                 organizationEmpComboBoxActionPerformed(evt);
             }
         });
-        add(organizationEmpComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(534, 494, 300, 32));
+        add(organizationEmpComboBox);
+        organizationEmpComboBox.setBounds(570, 480, 300, 32);
 
         nameTextField.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 0, 20)); // NOI18N
-        add(nameTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(534, 556, 300, 40));
+        add(nameTextField);
+        nameTextField.setBounds(570, 520, 300, 40);
 
-        jLabel2.setFont(new java.awt.Font("Microsoft YaHei Light", 1, 24)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel2.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         jLabel2.setText("Name:");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(354, 552, -1, -1));
+        add(jLabel2);
+        jLabel2.setBounds(490, 530, 67, 29);
 
         backJButton.setFont(new java.awt.Font("Microsoft YaHei Light", 1, 18)); // NOI18N
         backJButton.setText("Back");
@@ -139,7 +145,8 @@ public class ManageEmployeeJpanel extends javax.swing.JPanel {
                 backJButtonActionPerformed(evt);
             }
         });
-        add(backJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 690, -1, -1));
+        add(backJButton);
+        backJButton.setBounds(360, 630, 73, 28);
 
         addJButton.setFont(new java.awt.Font("Microsoft YaHei Light", 1, 18)); // NOI18N
         addJButton.setText("Create Employee");
@@ -148,7 +155,13 @@ public class ManageEmployeeJpanel extends javax.swing.JPanel {
                 addJButtonActionPerformed(evt);
             }
         });
-        add(addJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 690, -1, -1));
+        add(addJButton);
+        addJButton.setBounds(710, 630, 186, 28);
+
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/AdministrativeRole/emp4.jpg"))); // NOI18N
+        jLabel8.setText("jLabel8");
+        add(jLabel8);
+        jLabel8.setBounds(-80, 30, 1400, 880);
     }// </editor-fold>//GEN-END:initComponents
 
     private void backJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backJButtonActionPerformed
@@ -228,6 +241,7 @@ public class ManageEmployeeJpanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel8;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextField nameTextField;
     private javax.swing.JComboBox organizationComboBox;
