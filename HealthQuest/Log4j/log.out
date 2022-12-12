@@ -304,3 +304,16 @@ http-outgoing-0: set socket timeout to 0
 Connection released: [id: 0][route: {s}->https://api.twilio.com:443][total available: 1; route allocated: 1 of 10; total allocated: 1 of 20]
 Logged in User RoleHealth.Role.SystemAdminRole
 Logged in User RoleHealth.Role.SystemAdminRole
+Entering Main JFrame	UI.MainJFrame
+Entering Main JFrame	UI.MainJFrame
+Logged in User RoleHealth.Role.SystemAdminRole
+Entering Main JFrame	UI.MainJFrame
+Logged in User RoleHealth.Role.SystemAdminRole
+Invalid credentials for user
+Invalid credentials for user
+Invalid credentials for user
+Entering Main JFrame	UI.MainJFrame
+Invalid credentials for user
+Logged in User RoleHealth.Role.SystemAdminRole
+Entering Main JFrame	UI.MainJFrame
+Logged in User RoleHealth.Role.SystemAdminRole
