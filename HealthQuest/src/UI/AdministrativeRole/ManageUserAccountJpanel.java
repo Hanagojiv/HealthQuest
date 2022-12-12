@@ -65,6 +65,9 @@ public class ManageUserAccountJpanel extends javax.swing.JPanel {
         jLabel2 = new javax.swing.JLabel();
         backBtn = new javax.swing.JButton();
         createUserbtn = new javax.swing.JButton();
+        SendOtpButton = new javax.swing.JButton();
+        jLabel7 = new javax.swing.JLabel();
+        phnTxt = new javax.swing.JTextField();
         jLabel6 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(52, 148, 172));
@@ -156,13 +159,13 @@ public class ManageUserAccountJpanel extends javax.swing.JPanel {
 
         passwordTxt.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 0, 20)); // NOI18N
         add(passwordTxt);
-        passwordTxt.setBounds(510, 600, 210, 31);
+        passwordTxt.setBounds(510, 640, 210, 31);
 
         jLabel2.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Password:");
         add(jLabel2);
-        jLabel2.setBounds(330, 600, 130, 29);
+        jLabel2.setBounds(330, 640, 130, 29);
 
         backBtn.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 18)); // NOI18N
         backBtn.setForeground(new java.awt.Color(0, 0, 102));
@@ -173,7 +176,7 @@ public class ManageUserAccountJpanel extends javax.swing.JPanel {
             }
         });
         add(backBtn);
-        backBtn.setBounds(290, 660, 112, 28);
+        backBtn.setBounds(290, 700, 112, 28);
 
         createUserbtn.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 18)); // NOI18N
         createUserbtn.setForeground(new java.awt.Color(0, 0, 102));
@@ -184,10 +187,27 @@ public class ManageUserAccountJpanel extends javax.swing.JPanel {
             }
         });
         add(createUserbtn);
-        createUserbtn.setBounds(480, 660, 233, 31);
+        createUserbtn.setBounds(490, 700, 233, 31);
+
+        SendOtpButton.setText("Send OTP");
+        SendOtpButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                SendOtpButtonActionPerformed(evt);
+            }
+        });
+        add(SendOtpButton);
+        SendOtpButton.setBounds(760, 550, 110, 30);
+
+        jLabel7.setFont(new java.awt.Font("Times New Roman", 2, 24)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel7.setText("Phone Number");
+        add(jLabel7);
+        jLabel7.setBounds(310, 590, 150, 40);
+        add(phnTxt);
+        phnTxt.setBounds(510, 590, 210, 30);
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/AdministrativeRole/624111.jpg"))); // NOI18N
-        jLabel6.setText("jLabel6");
+        jLabel6.setText("Phone Number");
         add(jLabel6);
         jLabel6.setBounds(-160, -80, 1400, 980);
     }// </editor-fold>//GEN-END:initComponents
@@ -239,6 +259,24 @@ public class ManageUserAccountJpanel extends javax.swing.JPanel {
         nametxt.setText("");
         passwordTxt.setText("");
     }//GEN-LAST:event_createUserbtnActionPerformed
+
+    private void SendOtpButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SendOtpButtonActionPerformed
+        // TODO add your handling code here:
+
+        boolean textSent =SmsSender.sendSms(phnTxt.getText(), "Hey, Your Phone is Successfully Authenticated");
+        
+        
+//        boolean textSent = SmsSender.sendSms(phoneNumberField.getText(), "You have successfully registered to RELIEF Please check your mail for login credentials");
+                    
+                 
+                    
+                    if(!textSent) {
+                        JOptionPane.showMessageDialog(null, "Enter VALID phone number! ","warning", JOptionPane.WARNING_MESSAGE);
+//                        organization.getPersonDirectory().getVolunteerList().remove((Volunteer)person);
+                        return;
+                    }
+        
+    }//GEN-LAST:event_SendOtpButtonActionPerformed
 public void populateEmployeeComboBox(Organization organization){
         employeeComboBox.removeAllItems();
         
@@ -278,6 +316,7 @@ private void populateRoleComboBox(Organization organization){
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton SendOtpButton;
     private javax.swing.JButton backBtn;
     private javax.swing.JButton createUserbtn;
     private javax.swing.JComboBox employeeComboBox;
@@ -287,11 +326,13 @@ private void populateRoleComboBox(Organization organization){
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel manageuserLbl;
     private javax.swing.JTextField nametxt;
     private javax.swing.JComboBox organizationComboBox;
     private javax.swing.JTextField passwordTxt;
+    private javax.swing.JTextField phnTxt;
     private javax.swing.JComboBox roleComboBox;
     private javax.swing.JTable userTbl;
     // End of variables declaration//GEN-END:variables
