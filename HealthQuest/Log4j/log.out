@@ -173,3 +173,11 @@ Entering Main JFrame	UI.MainJFrame
 Logged in User RoleHealth.Role.SystemAdminRole
 user creating networkUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
 user creating enterpirseUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+Entering Main JFrame	UI.MainJFrame
+Invalid credentials for user
+Logged in User RoleHealth.Role.SystemAdminRole
+user adding enterpirse adminsUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+user creating networkUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+user creating enterpirseUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin adding users 	UI.AdministrativeRole.AdminWorkAreaJpanel

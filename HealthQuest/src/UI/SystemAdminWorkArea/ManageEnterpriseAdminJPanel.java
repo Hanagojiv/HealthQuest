@@ -100,8 +100,9 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
         jLabel5 = new javax.swing.JLabel();
         passwordJPasswordField = new javax.swing.JPasswordField();
         backJButton = new javax.swing.JButton();
-        jLabel6 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(255, 255, 255));
         setForeground(new java.awt.Color(0, 0, 102));
@@ -213,16 +214,20 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
         add(backJButton);
         backJButton.setBounds(60, 670, 77, 30);
 
-        jLabel6.setFont(new java.awt.Font("Times New Roman", 3, 48)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(0, 0, 102));
-        jLabel6.setText("Enterprise Admin");
-        add(jLabel6);
-        jLabel6.setBounds(130, 20, 440, 52);
+        jButton1.setText("Send Mail");
+        add(jButton1);
+        jButton1.setBounds(630, 480, 100, 40);
 
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/AdministrativeRole/emp2.jpg"))); // NOI18N
         jLabel7.setText("jLabel7");
         add(jLabel7);
         jLabel7.setBounds(-60, 100, 990, 790);
+
+        jLabel6.setFont(new java.awt.Font("Times New Roman", 3, 48)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel6.setText("Enterprise Admin");
+        add(jLabel6);
+        jLabel6.setBounds(130, 20, 440, 52);
     }// </editor-fold>//GEN-END:initComponents
 
     private void networkJComboBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_networkJComboBoxActionPerformed
@@ -288,6 +293,7 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
     private javax.swing.JButton backJButton;
     private javax.swing.JComboBox enterpriseJComboBox;
     private javax.swing.JTable enterpriseJTable;
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
