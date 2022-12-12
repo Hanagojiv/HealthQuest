@@ -76,7 +76,7 @@ public class GenerateBioTechnologyNewBioTechnologyJPanel extends javax.swing.JPa
         backBtn = new javax.swing.JButton();
         addnewBioTechnologyBtn = new javax.swing.JButton();
         newBioTechnologyTxt = new javax.swing.JTextField();
-        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(204, 204, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -110,7 +110,7 @@ public class GenerateBioTechnologyNewBioTechnologyJPanel extends javax.swing.JPa
 
         add(jScrollPane, new org.netbeans.lib.awtextra.AbsoluteConstraints(173, 168, 650, 240));
 
-        patientNameLbl.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 0, 24)); // NOI18N
+        patientNameLbl.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         patientNameLbl.setForeground(new java.awt.Color(0, 0, 102));
         patientNameLbl.setText("Patient Name :");
         add(patientNameLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 99, 170, 30));
@@ -119,12 +119,12 @@ public class GenerateBioTechnologyNewBioTechnologyJPanel extends javax.swing.JPa
         patientTxtField.setEnabled(false);
         add(patientTxtField, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 99, 294, 30));
 
-        resultLbl.setFont(new java.awt.Font("Microsoft JhengHei UI", 1, 48)); // NOI18N
+        resultLbl.setFont(new java.awt.Font("Times New Roman", 3, 48)); // NOI18N
         resultLbl.setForeground(new java.awt.Color(0, 0, 102));
         resultLbl.setText("New Drug");
         add(resultLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(404, 29, -1, -1));
 
-        backBtn.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 0, 24)); // NOI18N
+        backBtn.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         backBtn.setForeground(new java.awt.Color(0, 0, 102));
         backBtn.setText("Back");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -132,9 +132,9 @@ public class GenerateBioTechnologyNewBioTechnologyJPanel extends javax.swing.JPa
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 537, 170, -1));
+        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 540, 170, -1));
 
-        addnewBioTechnologyBtn.setFont(new java.awt.Font("Microsoft JhengHei UI", 0, 24)); // NOI18N
+        addnewBioTechnologyBtn.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         addnewBioTechnologyBtn.setForeground(new java.awt.Color(0, 0, 102));
         addnewBioTechnologyBtn.setText("Add New Drug");
         addnewBioTechnologyBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -142,11 +142,12 @@ public class GenerateBioTechnologyNewBioTechnologyJPanel extends javax.swing.JPa
                 addnewBioTechnologyBtnActionPerformed(evt);
             }
         });
-        add(addnewBioTechnologyBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 430, 220, 41));
-        add(newBioTechnologyTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(423, 435, 267, 41));
+        add(addnewBioTechnologyBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 440, 220, 41));
+        add(newBioTechnologyTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 440, 267, 41));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/newDrug.jpg"))); // NOI18N
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 30, -1, 80));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/BioTechnologySupplier/134682640-vector-health-seamless-pattern-illustration-background-with-medicine-and-pharmacy-items-wallpaper-of.jpg"))); // NOI18N
+        jLabel2.setText("jLabel2");
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     public void populateTable() {
@@ -239,7 +240,7 @@ public class GenerateBioTechnologyNewBioTechnologyJPanel extends javax.swing.JPa
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton addnewBioTechnologyBtn;
     private javax.swing.JButton backBtn;
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JScrollPane jScrollPane;
     private javax.swing.JTable newBioTechnologyTbl;
     private javax.swing.JTextField newBioTechnologyTxt;

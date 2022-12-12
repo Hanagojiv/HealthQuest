@@ -49,27 +49,29 @@ public class ChemicalProcessRequestJpanel extends javax.swing.JPanel {
         dateTxt1 = new javax.swing.JTextField();
         backBtn = new javax.swing.JButton();
         updateBtn = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
         dateFld = new com.toedter.calendar.JDateChooser();
+        jLabel2 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(0, 204, 204));
-        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        setBackground(new java.awt.Color(255, 255, 255));
+        setLayout(null);
 
-        processlbl.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 48)); // NOI18N
-        processlbl.setForeground(new java.awt.Color(0, 0, 102));
+        processlbl.setFont(new java.awt.Font("Times New Roman", 3, 48)); // NOI18N
+        processlbl.setForeground(new java.awt.Color(255, 255, 255));
         processlbl.setText("PROCESSING DRUG SUPPLIER REQUEST ");
-        add(processlbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(153, 108, -1, 53));
+        add(processlbl);
+        processlbl.setBounds(153, 108, 942, 53);
 
-        datedeliveryBtn.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 24)); // NOI18N
-        datedeliveryBtn.setForeground(new java.awt.Color(0, 0, 102));
+        datedeliveryBtn.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         datedeliveryBtn.setText("SELECT DATE OF DELIVERY : ");
-        add(datedeliveryBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 269, 375, 41));
+        add(datedeliveryBtn);
+        datedeliveryBtn.setBounds(80, 269, 375, 41);
 
         dateTxt1.setEditable(false);
         dateTxt1.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 0, 20)); // NOI18N
-        add(dateTxt1, new org.netbeans.lib.awtextra.AbsoluteConstraints(502, 272, 261, 41));
+        add(dateTxt1);
+        dateTxt1.setBounds(502, 272, 261, 41);
 
-        backBtn.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
+        backBtn.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         backBtn.setForeground(new java.awt.Color(0, 0, 102));
         backBtn.setText("BACK");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -77,9 +79,10 @@ public class ChemicalProcessRequestJpanel extends javax.swing.JPanel {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(114, 401, -1, 33));
+        add(backBtn);
+        backBtn.setBounds(300, 400, 94, 33);
 
-        updateBtn.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
+        updateBtn.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         updateBtn.setForeground(new java.awt.Color(0, 0, 102));
         updateBtn.setText("UPDATE STATUS ");
         updateBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -87,11 +90,15 @@ public class ChemicalProcessRequestJpanel extends javax.swing.JPanel {
                 updateBtnActionPerformed(evt);
             }
         });
-        add(updateBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 400, 261, 33));
+        add(updateBtn);
+        updateBtn.setBounds(500, 400, 261, 33);
+        add(dateFld);
+        dateFld.setBounds(810, 280, 99, 23);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/progress.jpg"))); // NOI18N
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1140, 90, 110, -1));
-        add(dateFld, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 280, -1, -1));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/ChemicalRole/Drug101.jpg"))); // NOI18N
+        jLabel2.setText("jLabel2");
+        add(jLabel2);
+        jLabel2.setBounds(2, -3, 1280, 730);
     }// </editor-fold>//GEN-END:initComponents
 
     private void backBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backBtnActionPerformed
@@ -132,7 +139,7 @@ public class ChemicalProcessRequestJpanel extends javax.swing.JPanel {
     private com.toedter.calendar.JDateChooser dateFld;
     private javax.swing.JTextField dateTxt1;
     private javax.swing.JLabel datedeliveryBtn;
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel processlbl;
     private javax.swing.JButton updateBtn;
     // End of variables declaration//GEN-END:variables

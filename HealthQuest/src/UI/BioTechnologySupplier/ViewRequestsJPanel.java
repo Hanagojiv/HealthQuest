@@ -86,8 +86,8 @@ public class ViewRequestsJPanel extends javax.swing.JPanel {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 204, 255));
-        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        setBackground(new java.awt.Color(0, 255, 255));
+        setLayout(null);
 
         BioTechnologyRequestsTable.setFont(new java.awt.Font("Microsoft JhengHei UI", 0, 20)); // NOI18N
         BioTechnologyRequestsTable.setModel(new javax.swing.table.DefaultTableModel(
@@ -109,7 +109,8 @@ public class ViewRequestsJPanel extends javax.swing.JPanel {
         BioTechnologyRequestsTable.setRowHeight(30);
         jScrollPane.setViewportView(BioTechnologyRequestsTable);
 
-        add(jScrollPane, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 158, 1045, 277));
+        add(jScrollPane);
+        jScrollPane.setBounds(10, 160, 950, 230);
 
         backBtn.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 18)); // NOI18N
         backBtn.setText("BACK");
@@ -118,15 +119,19 @@ public class ViewRequestsJPanel extends javax.swing.JPanel {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(388, 540, 136, -1));
+        add(backBtn);
+        backBtn.setBounds(388, 540, 136, 28);
 
-        jLabel1.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 48)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 3, 48)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("View Requests");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 70, 430, 70));
+        add(jLabel1);
+        jLabel1.setBounds(410, 30, 430, 70);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/Request.jpg"))); // NOI18N
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 30, -1, -1));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/BioTechnologySupplier/chemical-storage-container-storage-stock.jpg"))); // NOI18N
+        jLabel2.setText("jLabel2");
+        add(jLabel2);
+        jLabel2.setBounds(90, 0, 910, 630);
     }// </editor-fold>//GEN-END:initComponents
 
     private void backBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backBtnActionPerformed

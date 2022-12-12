@@ -83,13 +83,14 @@ public class ChemicalWorkArea extends javax.swing.JPanel {
         refreshBtn = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(0, 204, 204));
-        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        setBackground(new java.awt.Color(0, 204, 255));
+        setLayout(null);
 
-        drugSupplierLbl.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 48)); // NOI18N
+        drugSupplierLbl.setFont(new java.awt.Font("Times New Roman", 3, 48)); // NOI18N
         drugSupplierLbl.setForeground(new java.awt.Color(0, 0, 102));
         drugSupplierLbl.setText("CHEMICAL SUPPLIER WORK AREA ");
-        add(drugSupplierLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 110, -1, 53));
+        add(drugSupplierLbl);
+        drugSupplierLbl.setBounds(200, 110, 806, 53);
 
         workRequestTbl.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 0, 20)); // NOI18N
         workRequestTbl.setModel(new javax.swing.table.DefaultTableModel(
@@ -118,9 +119,10 @@ public class ChemicalWorkArea extends javax.swing.JPanel {
         workRequestTbl.setRowHeight(30);
         jScrollPane2.setViewportView(workRequestTbl);
 
-        add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 230, 1340, 330));
+        add(jScrollPane2);
+        jScrollPane2.setBounds(50, 260, 1360, 200);
 
-        assignBtn.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
+        assignBtn.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         assignBtn.setForeground(new java.awt.Color(0, 0, 102));
         assignBtn.setText("Assign to me");
         assignBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -128,9 +130,10 @@ public class ChemicalWorkArea extends javax.swing.JPanel {
                 assignBtnActionPerformed(evt);
             }
         });
-        add(assignBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 580, -1, -1));
+        add(assignBtn);
+        assignBtn.setBounds(180, 490, 157, 35);
 
-        processBtn.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
+        processBtn.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         processBtn.setForeground(new java.awt.Color(0, 0, 102));
         processBtn.setText("Process");
         processBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -138,9 +141,10 @@ public class ChemicalWorkArea extends javax.swing.JPanel {
                 processBtnActionPerformed(evt);
             }
         });
-        add(processBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 580, 189, -1));
+        add(processBtn);
+        processBtn.setBounds(580, 490, 189, 35);
 
-        refreshBtn.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
+        refreshBtn.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         refreshBtn.setForeground(new java.awt.Color(0, 0, 102));
         refreshBtn.setText("Refresh");
         refreshBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -148,10 +152,13 @@ public class ChemicalWorkArea extends javax.swing.JPanel {
                 refreshBtnActionPerformed(evt);
             }
         });
-        add(refreshBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(1060, 580, 169, -1));
+        add(refreshBtn);
+        refreshBtn.setBounds(980, 490, 169, 35);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/DrugRequestprocess.jpg"))); // NOI18N
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 0, -1, -1));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/ChemicalRole/chemical.gif"))); // NOI18N
+        jLabel1.setText("jLabel1");
+        add(jLabel1);
+        jLabel1.setBounds(300, -10, 590, 430);
     }// </editor-fold>//GEN-END:initComponents
 
     private void assignBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_assignBtnActionPerformed

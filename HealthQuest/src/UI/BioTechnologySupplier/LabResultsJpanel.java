@@ -72,10 +72,10 @@ public class LabResultsJpanel extends javax.swing.JPanel {
         generateBioTechnologyJButton = new javax.swing.JButton();
         backBtn = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 204, 255));
-        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        setBackground(new java.awt.Color(255, 255, 255));
+        setLayout(null);
 
         workRequestJTable.setFont(new java.awt.Font("Microsoft JhengHei UI", 0, 20)); // NOI18N
         workRequestJTable.setModel(new javax.swing.table.DefaultTableModel(
@@ -104,9 +104,10 @@ public class LabResultsJpanel extends javax.swing.JPanel {
         workRequestJTable.setRowHeight(30);
         jScrollPane1.setViewportView(workRequestJTable);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(57, 152, 900, 290));
+        add(jScrollPane1);
+        jScrollPane1.setBounds(57, 152, 900, 290);
 
-        generateBioTechnologyJButton.setFont(new java.awt.Font("Microsoft JhengHei UI", 1, 20)); // NOI18N
+        generateBioTechnologyJButton.setFont(new java.awt.Font("Times New Roman", 3, 20)); // NOI18N
         generateBioTechnologyJButton.setForeground(new java.awt.Color(0, 0, 102));
         generateBioTechnologyJButton.setText("Generate Drug");
         generateBioTechnologyJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -114,9 +115,10 @@ public class LabResultsJpanel extends javax.swing.JPanel {
                 generateBioTechnologyJButtonActionPerformed(evt);
             }
         });
-        add(generateBioTechnologyJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 480, 210, 40));
+        add(generateBioTechnologyJButton);
+        generateBioTechnologyJButton.setBounds(650, 480, 210, 40);
 
-        backBtn.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
+        backBtn.setFont(new java.awt.Font("Times New Roman", 3, 20)); // NOI18N
         backBtn.setForeground(new java.awt.Color(0, 0, 102));
         backBtn.setText("BACK");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -124,15 +126,19 @@ public class LabResultsJpanel extends javax.swing.JPanel {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 490, -1, 33));
+        add(backBtn);
+        backBtn.setBounds(230, 490, 82, 33);
 
-        jLabel1.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 48)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 3, 48)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 0, 102));
         jLabel1.setText("Lab Results");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 50, -1, 53));
+        add(jLabel1);
+        jLabel1.setBounds(350, 50, 233, 53);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/DrugLabResults.jpg"))); // NOI18N
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 20, 140, -1));
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/BioTechnologySupplier/rm373batch15-217-01.jpg"))); // NOI18N
+        jLabel3.setText("jLabel3");
+        add(jLabel3);
+        jLabel3.setBounds(0, 10, 1200, 780);
     }// </editor-fold>//GEN-END:initComponents
 
     public void populateTable() {
@@ -240,7 +246,7 @@ public class LabResultsJpanel extends javax.swing.JPanel {
     private javax.swing.JButton backBtn;
     private javax.swing.JButton generateBioTechnologyJButton;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable workRequestJTable;
     // End of variables declaration//GEN-END:variables

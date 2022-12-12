@@ -50,3 +50,126 @@ Sysadmin Creating NetworkUI.SystemAdminWorkArea.ManageNetworkJPanel
 Name of network Created:	boston
 user creating enterpirseUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
 Entering Main JFrame	UI.MainJFrame
+Entering Main JFrame	UI.MainJFrame
+Logged in User RoleHealth.Role.SystemAdminRole
+user creating networkUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+Sysadmin Creating NetworkUI.SystemAdminWorkArea.ManageNetworkJPanel
+Name of network Created:	Boston
+user creating networkUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+user creating enterpirseUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+name of the Enterpise is: 	KEMname of Network in which the enterprise is: 	Boston	UI.SystemAdminWorkArea.ManageEnterpriseJPanel
+user adding enterpirse adminsUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+system admin creating enterprise admin	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+name of the USER is: 	kemname of the enterprise is: 	kemname of network is	Boston	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+Invalid credentials for user
+Logged in User RoleHealth.Role.AdminRole
+Entering Main JFrame	UI.MainJFrame
+Entering Main JFrame	UI.MainJFrame
+Logged in User RoleHealth.Role.SystemAdminRole
+user creating networkUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+Invalid credentials for user
+Logged in User RoleHealth.Role.AdminRole
+Entering Main JFrame	UI.MainJFrame
+Logged in User RoleHealth.Role.SystemAdminRole
+user creating networkUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+Invalid credentials for user
+Logged in User RoleHealth.Role.AdminRole
+Entering Main JFrame	UI.MainJFrame
+Logged in User RoleHealth.Role.SystemAdminRole
+Logged in User RoleHealth.Role.AdminRole
+Entering Main JFrame	UI.MainJFrame
+Logged in User RoleHealth.Role.AdminRole
+Entering Main JFrame	UI.MainJFrame
+Logged in User RoleHealth.Role.AdminRole
+Entering Main JFrame	UI.MainJFrame
+Entering Main JFrame	UI.MainJFrame
+Logged in User RoleHealth.Role.SystemAdminRole
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding the following OrganizationDoctor
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Entering Main JFrame	UI.MainJFrame
+Logged in User RoleHealth.Role.SystemAdminRole
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Entering Main JFrame	UI.MainJFrame
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding the following OrganizationDoctor
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding following employee 	Vivekin following Organization 	Doctor Organization	UI.AdministrativeRole.ManageEmployeeJpanel
+Enterprise admin adding users 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Entering Main JFrame	UI.MainJFrame
+Logged in User RoleHealth.Role.SystemAdminRole
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding the following OrganizationDoctor
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding following employee 	Vivekin following Organization 	Doctor Organization	UI.AdministrativeRole.ManageEmployeeJpanel
+Enterprise admin adding users 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Entering Main JFrame	UI.MainJFrame
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding the following OrganizationDoctor
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding following employee 	Vivekin following Organization 	Doctor Organization	UI.AdministrativeRole.ManageEmployeeJpanel
+Enterprise admin adding users 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding users 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding users 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Logged in User RoleHealth.Role.SystemAdminRole
+user creating networkUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+user creating enterpirseUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+name of the Enterpise is: 	rubyname of Network in which the enterprise is: 	Boston	UI.SystemAdminWorkArea.ManageEnterpriseJPanel
+name of the Enterpise is: 	pinakname of Network in which the enterprise is: 	Boston	UI.SystemAdminWorkArea.ManageEnterpriseJPanel
+name of the Enterpise is: 	serumname of Network in which the enterprise is: 	Boston	UI.SystemAdminWorkArea.ManageEnterpriseJPanel
+name of the Enterpise is: 	indname of Network in which the enterprise is: 	Boston	UI.SystemAdminWorkArea.ManageEnterpriseJPanel
+user adding enterpirse adminsUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+system admin creating enterprise admin	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+name of the USER is: 	satyamname of the enterprise is: 	satymaname of network is	Boston	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+user adding enterpirse adminsUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+system admin creating enterprise admin	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+name of the USER is: 	vivekname of the enterprise is: 	vivekname of network is	Boston	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+system admin creating enterprise admin	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+name of the USER is: 	himanshuname of the enterprise is: 	himanshuname of network is	Boston	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+system admin creating enterprise admin	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+name of the USER is: 	prathamname of the enterprise is: 	prathamname of network is	Boston	UI.SystemAdminWorkArea.ManageEnterpriseAdminJPanel
+Logged in User RoleHealth.Role.AdminRole
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding the following OrganizationDoctor
+Enterprise admin creating Organization 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding the following OrganizationLab
+Enterprise admin adding Employee 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin adding following employee 	saloniin following Organization 	Doctor Organization	UI.AdministrativeRole.ManageEmployeeJpanel
+Enterprise admin adding following employee 	aasthain following Organization 	Lab Organization	UI.AdministrativeRole.ManageEmployeeJpanel
+Enterprise admin adding users 	UI.AdministrativeRole.AdminWorkAreaJpanel
+Enterprise admin creating user with name 	saloniRoleHealth.Role.DoctorRoleIn OrganizationDoctor Organization	UI.AdministrativeRole.ManageUserAccountJpanel
+Enterprise admin creating user with name 	aasthaRoleHealth.Role.LabRoleIn OrganizationLab Organization	UI.AdministrativeRole.ManageUserAccountJpanel
+Logged in User RoleHealth.Role.SystemAdminRole
+user creating enterpirseUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+user adding enterpirse adminsUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+Invalid credentials for user
+Current Enterprise	ruby
+Current Organization	Doctor Organization
+Current Network	Boston
+Logged in User RoleHealth.Role.DoctorRole
+Entering Main JFrame	UI.MainJFrame
+Invalid credentials for user
+Logged in User RoleHealth.Role.SystemAdminRole
+Entering Main JFrame	UI.MainJFrame
+Logged in User RoleHealth.Role.SystemAdminRole
+Entering Main JFrame	UI.MainJFrame
+Logged in User RoleHealth.Role.SystemAdminRole
+Entering Main JFrame	UI.MainJFrame
+Logged in User RoleHealth.Role.SystemAdminRole
+user creating networkUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel
+user creating enterpirseUI.SystemAdminWorkArea.SystemAdminWorkAreaJPanel

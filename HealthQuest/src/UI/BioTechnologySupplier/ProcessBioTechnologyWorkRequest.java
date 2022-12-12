@@ -49,25 +49,27 @@ public class ProcessBioTechnologyWorkRequest extends javax.swing.JPanel {
         jLabel2 = new javax.swing.JLabel();
         updateBtn = new javax.swing.JButton();
         backBtn = new javax.swing.JButton();
-        jLabel3 = new javax.swing.JLabel();
         dateFld = new com.toedter.calendar.JDateChooser();
         dateTxt = new javax.swing.JTextField();
+        jLabel3 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(204, 204, 255));
+        setBackground(new java.awt.Color(102, 255, 255));
         setPreferredSize(new java.awt.Dimension(2000, 1200));
-        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        setLayout(null);
 
-        jLabel1.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 48)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 3, 48)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 0, 102));
         jLabel1.setText("PROCESSING SUPPLIER REQUEST ");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(167, 64, -1, 53));
+        add(jLabel1);
+        jLabel1.setBounds(167, 64, 793, 53);
 
-        jLabel2.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(0, 0, 102));
         jLabel2.setText("SELECT DATE OF DELIVERY : ");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(167, 212, 375, 41));
+        add(jLabel2);
+        jLabel2.setBounds(167, 212, 375, 41);
 
-        updateBtn.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
+        updateBtn.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         updateBtn.setForeground(new java.awt.Color(0, 0, 102));
         updateBtn.setText("UPDATE STATUS ");
         updateBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -75,9 +77,10 @@ public class ProcessBioTechnologyWorkRequest extends javax.swing.JPanel {
                 updateBtnActionPerformed(evt);
             }
         });
-        add(updateBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(548, 345, 261, 50));
+        add(updateBtn);
+        updateBtn.setBounds(450, 330, 261, 50);
 
-        backBtn.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 24)); // NOI18N
+        backBtn.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         backBtn.setForeground(new java.awt.Color(0, 0, 102));
         backBtn.setText("BACK");
         backBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -85,15 +88,20 @@ public class ProcessBioTechnologyWorkRequest extends javax.swing.JPanel {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(167, 345, -1, 50));
-
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/progress.jpg"))); // NOI18N
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(1000, 40, 120, -1));
-        add(dateFld, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 220, 210, 30));
+        add(backBtn);
+        backBtn.setBounds(140, 530, 94, 50);
+        add(dateFld);
+        dateFld.setBounds(540, 220, 210, 30);
 
         dateTxt.setEditable(false);
         dateTxt.setFont(new java.awt.Font("Microsoft JhengHei UI Light", 0, 20)); // NOI18N
-        add(dateTxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 210, 261, 41));
+        add(dateTxt);
+        dateTxt.setBounds(770, 211, 250, 40);
+
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/BioTechnologySupplier/supply.jpg"))); // NOI18N
+        jLabel3.setText("jLabel3");
+        add(jLabel3);
+        jLabel3.setBounds(130, 60, 910, 530);
     }// </editor-fold>//GEN-END:initComponents
 
     private void updateBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_updateBtnActionPerformed

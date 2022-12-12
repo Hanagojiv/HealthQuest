@@ -103,9 +103,9 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(52, 148, 172));
+        setBackground(new java.awt.Color(255, 255, 255));
         setForeground(new java.awt.Color(0, 0, 102));
-        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        setLayout(null);
 
         enterpriseJTable.setFont(new java.awt.Font("Microsoft JhengHei UI", 0, 20)); // NOI18N
         enterpriseJTable.setModel(new javax.swing.table.DefaultTableModel(
@@ -127,12 +127,14 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
         enterpriseJTable.setRowHeight(25);
         jScrollPane1.setViewportView(enterpriseJTable);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 150, 690, 210));
+        add(jScrollPane1);
+        jScrollPane1.setBounds(60, 150, 690, 210);
 
-        jLabel1.setFont(new java.awt.Font("Microsoft JhengHei UI", 0, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 0, 102));
         jLabel1.setText("Network");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 380, -1, -1));
+        add(jLabel1);
+        jLabel1.setBounds(230, 380, 84, 29);
 
         networkJComboBox.setFont(new java.awt.Font("Microsoft JhengHei UI", 0, 24)); // NOI18N
         networkJComboBox.setForeground(new java.awt.Color(0, 0, 102));
@@ -142,55 +144,65 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
                 networkJComboBoxActionPerformed(evt);
             }
         });
-        add(networkJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 380, 220, -1));
+        add(networkJComboBox);
+        networkJComboBox.setBounds(360, 380, 220, 36);
 
-        jLabel2.setFont(new java.awt.Font("Microsoft JhengHei UI", 0, 24)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(0, 0, 102));
         jLabel2.setText("Username");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 480, -1, 20));
+        add(jLabel2);
+        jLabel2.setBounds(220, 480, 101, 20);
 
         usernameJTextField.setFont(new java.awt.Font("Microsoft JhengHei UI", 0, 24)); // NOI18N
         usernameJTextField.setForeground(new java.awt.Color(0, 0, 102));
-        add(usernameJTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 480, 220, -1));
+        add(usernameJTextField);
+        usernameJTextField.setBounds(360, 480, 220, 36);
 
-        jLabel3.setFont(new java.awt.Font("Microsoft JhengHei UI", 0, 24)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(0, 0, 102));
         jLabel3.setText("Enterprise");
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 430, -1, -1));
+        add(jLabel3);
+        jLabel3.setBounds(220, 430, 104, 29);
 
         enterpriseJComboBox.setFont(new java.awt.Font("Microsoft JhengHei UI", 0, 24)); // NOI18N
         enterpriseJComboBox.setForeground(new java.awt.Color(0, 0, 102));
         enterpriseJComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        add(enterpriseJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 430, 220, -1));
+        add(enterpriseJComboBox);
+        enterpriseJComboBox.setBounds(360, 430, 220, 36);
 
-        submitJButton.setFont(new java.awt.Font("Microsoft JhengHei UI", 0, 20)); // NOI18N
+        submitJButton.setFont(new java.awt.Font("Times New Roman", 3, 20)); // NOI18N
         submitJButton.setText("Submit");
         submitJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 submitJButtonActionPerformed(evt);
             }
         });
-        add(submitJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 670, -1, -1));
+        add(submitJButton);
+        submitJButton.setBounds(700, 670, 90, 30);
 
-        jLabel4.setFont(new java.awt.Font("Microsoft JhengHei UI", 0, 24)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(0, 0, 102));
         jLabel4.setText("Password");
-        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 530, -1, -1));
+        add(jLabel4);
+        jLabel4.setBounds(220, 530, 94, 29);
 
         nameJTextField.setFont(new java.awt.Font("Microsoft JhengHei UI", 0, 24)); // NOI18N
         nameJTextField.setForeground(new java.awt.Color(0, 0, 102));
-        add(nameJTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 580, 220, -1));
+        add(nameJTextField);
+        nameJTextField.setBounds(360, 580, 220, 36);
 
-        jLabel5.setFont(new java.awt.Font("Microsoft JhengHei UI", 0, 24)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Times New Roman", 3, 24)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(0, 0, 102));
         jLabel5.setText("Name");
-        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 580, -1, -1));
+        add(jLabel5);
+        jLabel5.setBounds(230, 580, 59, 29);
 
         passwordJPasswordField.setFont(new java.awt.Font("Microsoft JhengHei UI", 0, 24)); // NOI18N
         passwordJPasswordField.setForeground(new java.awt.Color(0, 0, 102));
-        add(passwordJPasswordField, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 530, 220, -1));
+        add(passwordJPasswordField);
+        passwordJPasswordField.setBounds(360, 530, 220, 36);
 
-        backJButton.setFont(new java.awt.Font("Microsoft JhengHei UI", 0, 20)); // NOI18N
+        backJButton.setFont(new java.awt.Font("Times New Roman", 3, 20)); // NOI18N
         backJButton.setForeground(new java.awt.Color(0, 0, 102));
         backJButton.setText(" Back");
         backJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -198,16 +210,19 @@ public class ManageEnterpriseAdminJPanel extends javax.swing.JPanel {
                 backJButtonActionPerformed(evt);
             }
         });
-        add(backJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 670, -1, -1));
+        add(backJButton);
+        backJButton.setBounds(60, 670, 77, 30);
 
-        jLabel6.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 48)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Times New Roman", 3, 48)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(0, 0, 102));
         jLabel6.setText("Enterprise Admin");
-        add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 20, 440, 52));
+        add(jLabel6);
+        jLabel6.setBounds(130, 20, 440, 52);
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/Enterpriseadmin.jpg"))); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/AdministrativeRole/emp2.jpg"))); // NOI18N
         jLabel7.setText("jLabel7");
-        add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 0, 220, 170));
+        add(jLabel7);
+        jLabel7.setBounds(-60, 100, 990, 790);
     }// </editor-fold>//GEN-END:initComponents
 
     private void networkJComboBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_networkJComboBoxActionPerformed
